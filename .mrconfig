@@ -108,7 +108,7 @@ update =
 checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
 update =
 	update_git_repository &&
-	install_ruby_gems
+	bundle
 
 [Dropbox/wmf/ZeroRatedMobileAccess]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroRatedMobileAccess' 'ZeroRatedMobileAccess'
