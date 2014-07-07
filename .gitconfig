@@ -1,0 +1,15 @@
+[color]
+	ui = auto
+[color.status]
+	untracket = cyan
+[core]
+	excludesfile = /Users/z/.gitignore_global
+	editor = nano
+[gitreview]
+	username = Zfilipin
+[user]
+	name = Željko Filipin
+	email = zeljko.filipin@gmail.com
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
