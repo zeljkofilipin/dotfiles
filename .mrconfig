@@ -12,7 +12,6 @@ lib =
 
 [/Users/z]
 update =
-	rvm get stable &&
 	gem update --system &&
 	brew update &&
 	brew upgrade
