@@ -129,7 +129,10 @@ update =
 
 [Dropbox/wmf/jenkins-job-builder]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/integration/jenkins-job-builder.git' 'jenkins-job-builder'
-update = update_git_repository
+update =
+	if [ -d ~/Dropbox/wmf/jenkins-job-builder/output ]; then rm -rv ~/Dropbox/wmf/jenkins-job-builder/output; fi &&
+	if [ -d ~/Dropbox/wmf/jenkins-job-builder/output_ ]; then rm -rv ~/Dropbox/wmf/jenkins-job-builder/output_; fi &&
+	update_git_repository
 
 [Dropbox/wmf/jenkins-job-builder/config]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder-config' 'config'
