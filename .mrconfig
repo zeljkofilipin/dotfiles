@@ -115,12 +115,6 @@ update =
 	update_git_repository &&
 	install_ruby_gems
 
-[Dropbox/wmf/browsertests]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/qa/browsertests' 'browsertests'
-update =
-	update_git_repository &&
-	install_ruby_gems
-
 [Dropbox/wmf/core]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
 update =
