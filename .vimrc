@@ -98,3 +98,5 @@ endif
 
 set number
 
+set list
+
