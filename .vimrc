@@ -102,3 +102,5 @@ set number
 " Display whitespace
 set list
 
+" Set ~/tmp as backup directory
+set backupdir=~/tmp
