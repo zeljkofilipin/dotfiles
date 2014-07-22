@@ -2,7 +2,7 @@
 lib =
   update_git_repository () {
     git checkout master &&
-    git branch | grep -v \* | xargs git branch -D &&
+    git branch | grep -vE 'master|cloudbees' | xargs git branch -D &&
     git pull origin master
   }
   install_ruby_gems () {
@@ -131,11 +131,9 @@ update =
 [Dropbox/wmf/jenkins-job-builder/config]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder-config' 'config'
 update =
-  git checkout master &&
-  #git branch | grep -v \* | xargs git branch -D &&
-  git pull origin master &&
+  update_git_repository &&
   git checkout cloudbees &&
-  git pull
+  git pull origin cloudbees
 
 [Dropbox/wmf/mediawiki_api]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/ruby/api' 'mediawiki_api'
