@@ -1,26 +1,26 @@
 [DEFAULT]
 lib =
-	update_git_repository () {
-		git checkout master &&
-		git branch | grep -v \* | xargs git branch -D &&
-		git pull origin master
-	}
-	install_ruby_gems () {
-		cd tests/browser &&
-		bundle
-	}
+  update_git_repository () {
+    git checkout master &&
+    git branch | grep -v \* | xargs git branch -D &&
+    git pull origin master
+  }
+  install_ruby_gems () {
+    cd tests/browser &&
+    bundle
+  }
 
 [/Users/z]
 update =
-	gem update --system &&
-	brew update &&
-	brew upgrade
+  gem update --system &&
+  brew update &&
+  brew upgrade
 
 [Dropbox/wmf/ArticleFeedbackv5]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ArticleFeedbackv5' 'ArticleFeedbackv5'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/CentralAuth]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralAuth' 'CentralAuth'
@@ -29,20 +29,20 @@ update = update_git_repository
 [Dropbox/wmf/CirrusSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/ContentTranslation]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/Flow]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Flow' 'Flow'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/GettingStarted]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GettingStarted' 'GettingStarted'
@@ -51,103 +51,103 @@ update = update_git_repository
 [Dropbox/wmf/MobileFrontend]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MobileFrontend.git' 'MobileFrontend'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/MultimediaViewer]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MultimediaViewer' 'MultimediaViewer'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/PageTriage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PageTriage' 'PageTriage'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/Translate]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Translate' 'Translate'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/TwnMainPage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/TwnMainPage' 'TwnMainPage'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/UniversalLanguageSelector]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UniversalLanguageSelector.git' 'UniversalLanguageSelector'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/UploadWizard]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UploadWizard' 'UploadWizard'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/VisualEditor]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update =
-	update_git_repository &&
-	cd modules/ve-mw/tests/browser &&
-	bundle
+  update_git_repository &&
+  cd modules/ve-mw/tests/browser &&
+  bundle
 
 [Dropbox/wmf/WikiLove]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikiLove' 'WikiLove'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/WikidataBrowserTests]
 checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
 update =
-	update_git_repository &&
-	bundle
+  update_git_repository &&
+  bundle
 
 [Dropbox/wmf/ZeroBanner]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroBanner' 'ZeroBanner'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/core]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
 update =
-	update_git_repository &&
-	install_ruby_gems
+  update_git_repository &&
+  install_ruby_gems
 
 [Dropbox/wmf/jenkins-job-builder]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/integration/jenkins-job-builder.git' 'jenkins-job-builder'
 update =
-	if [ -d ~/Dropbox/wmf/jenkins-job-builder/output ]; then rm -rv ~/Dropbox/wmf/jenkins-job-builder/output; fi &&
-	if [ -d ~/Dropbox/wmf/jenkins-job-builder/output_ ]; then rm -rv ~/Dropbox/wmf/jenkins-job-builder/output_; fi &&
-	update_git_repository
+  if [ -d ~/Dropbox/wmf/jenkins-job-builder/output ]; then rm -rv ~/Dropbox/wmf/jenkins-job-builder/output; fi &&
+  if [ -d ~/Dropbox/wmf/jenkins-job-builder/output_ ]; then rm -rv ~/Dropbox/wmf/jenkins-job-builder/output_; fi &&
+  update_git_repository
 
 [Dropbox/wmf/jenkins-job-builder/config]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder-config' 'config'
 update =
-	git checkout master &&
-	#git branch | grep -v \* | xargs git branch -D &&
-	git pull origin master &&
-	git checkout cloudbees &&
-	git pull
+  git checkout master &&
+  #git branch | grep -v \* | xargs git branch -D &&
+  git pull origin master &&
+  git checkout cloudbees &&
+  git pull
 
 [Dropbox/wmf/mediawiki_api]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/ruby/api' 'mediawiki_api'
 update =
-	update_git_repository &&
-	bundle
+  update_git_repository &&
+  bundle
 
 [Dropbox/wmf/mediawiki_selenium]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/selenium' 'mediawiki_selenium'
 update =
-	update_git_repository &&
-	bundle
+  update_git_repository &&
+  bundle
 
 [Dropbox/wmf/vagrant]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/vagrant.git' 'vagrant'
