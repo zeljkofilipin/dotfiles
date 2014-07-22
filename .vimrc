@@ -96,7 +96,9 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+" Display line numbers on the left
 set number
 
+" Display whitespace
 set list
 
