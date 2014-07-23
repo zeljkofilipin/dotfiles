@@ -173,7 +173,7 @@ update =
   update_git_repository &&
   install_ruby_gems
 
-#[Dropbox/wmf/mediawiki/extensions/ZeroBanner]
+[Dropbox/wmf/mediawiki/extensions/ZeroBanner]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroBanner' 'ZeroBanner'
 update =
   update_git_repository &&
