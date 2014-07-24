@@ -164,3 +164,6 @@ set list
 " Set ~/tmp as backup directory
 set backupdir=~/tmp
 
+" Set ~/tmp as swap file directory
+set dir=~/tmp//
+
