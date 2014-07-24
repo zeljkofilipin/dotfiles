@@ -14,11 +14,12 @@ lib =
 
 
 
-# update rubygems, homebrew and tools installed via homebrew
+# update rubygems, bundler, homebrew and tools installed via homebrew
 
 [/Users/z]
 update =
   gem update --system &&
+  gem update bundler
   brew update &&
   brew upgrade
 
