@@ -120,6 +120,12 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GettingStarted' 'GettingStarted'
 update = update_git_repository
 
+[Dropbox/wmf/mediawiki/extensions/Math]
+checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Math' 'Math'
+update =
+  update_git_repository &&
+  install_ruby_gems
+
 [Dropbox/wmf/mediawiki/extensions/MobileFrontend]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MobileFrontend.git' 'MobileFrontend'
 update =
