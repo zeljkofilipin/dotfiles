@@ -199,5 +199,5 @@ update = update_git_repository
 checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
 update =
   update_git_repository &&
-  bundle
+  install_ruby_gems
 
