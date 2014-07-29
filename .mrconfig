@@ -36,8 +36,7 @@ checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/integration/jenk
 update = 
 	 if [ -d ~/Documents/wmf/integration/jenkins-job-builder/output ]; then rm -rv ~/Documents/wmf/integration/jenkins-job-builder/output; fi &&
 	 if [ -d ~/Documents/wmf/integration/jenkins-job-builder/output_ ]; then rm -rv ~/Documents/wmf/integration/jenkins-job-builder/output_; fi &&
-	 update_git_repository &&
-	 sudo python setup.py install
+	 update_git_repository
 
 [Documents/wmf/integration/jenkins-job-builder/config]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder-config' 'config'
