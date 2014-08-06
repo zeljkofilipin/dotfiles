@@ -81,7 +81,9 @@ update =
 
 [Documents/wmf/mediawiki/vagrant]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/vagrant' 'vagrant'
-update = update_git_repository
+update = 
+	 update_git_repository &&
+	 git submodule update --init --recursive
 
 
 
