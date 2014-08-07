@@ -145,6 +145,12 @@ update =
 	 update_git_repository &&
 	 install_ruby_gems
 
+[Documents/wmf/mediawiki/extensions/PdfHandler]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PdfHandler' 'PdfHandler'
+update = 
+	 update_git_repository &&
+	 install_ruby_gems
+
 [Documents/wmf/mediawiki/extensions/Translate]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Translate' 'Translate'
 update = 
