@@ -4,7 +4,7 @@
 lib = 
 	 update_git_repository () {
 	   git checkout master &&
-	   git branch | grep -vE 'master|cloudbees' | xargs git branch -D &&
+	   git branch | grep -vE 'master' | xargs git branch -D &&
 	   git pull origin master
 	 }
 	 install_ruby_gems () {
@@ -40,10 +40,7 @@ update =
 
 [Documents/wmf/integration/jenkins-job-builder/config]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder-config' 'config'
-update = 
-	 update_git_repository &&
-	 git checkout cloudbees &&
-	 git pull origin cloudbees
+update = update_git_repository
 
 [Documents/wmf/integration/zuul-config]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/integration/zuul-config' 'zuul-config'
