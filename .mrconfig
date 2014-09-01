@@ -19,7 +19,7 @@ lib =
 [/Users/z]
 update = 
 	 gem update --system &&
-	 gem update bundler
+	 gem update bundler &&
 	 brew update &&
 	 brew upgrade
 
