@@ -81,6 +81,7 @@ checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/vagran
 update = 
 	 update_git_repository &&
 	 git submodule update --init --recursive
+	 ./setup.sh
 
 
 
