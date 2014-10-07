@@ -196,6 +196,10 @@ update =
 	 update_git_repository &&
 	 install_ruby_gems
 
+[Documents/wmf/operations/puppet]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
+update = update_git_repository
+
 
 
 # wmde
