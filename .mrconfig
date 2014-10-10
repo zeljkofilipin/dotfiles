@@ -39,11 +39,7 @@ update =
 	 update_git_repository
 
 [Documents/wmf/integration/jenkins-job-builder/config]
-checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder-config' 'config'
-update = update_git_repository
-
-[Documents/wmf/integration/zuul-config]
-checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/integration/zuul-config' 'zuul-config'
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/config' 'config'
 update = update_git_repository
 
 
