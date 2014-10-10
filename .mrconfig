@@ -192,6 +192,12 @@ update =
 	 update_git_repository &&
 	 install_ruby_gems
 
+[Documents/wmf/mediawiki/extensions/ZeroPortal]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroPortal' 'ZeroPortal'
+update = 
+	 update_git_repository &&
+	 install_ruby_gems
+
 [Documents/wmf/operations/puppet]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
 update =
