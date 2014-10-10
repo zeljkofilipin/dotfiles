@@ -198,7 +198,10 @@ update =
 
 [Documents/wmf/operations/puppet]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
-update = update_git_repository
+update =
+	   git checkout production &&
+	   git branch | grep -vE 'production' | xargs git branch -D &&
+	   git pull origin production
 
 
 
