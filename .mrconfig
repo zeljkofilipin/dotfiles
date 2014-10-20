@@ -95,7 +95,9 @@ update =
 
 [Documents/wmf/mediawiki/extensions/CentralAuth]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralAuth' 'CentralAuth'
-update = update_git_repository
+update = 
+	 update_git_repository &&
+	 install_ruby_gems
 
 [Documents/wmf/mediawiki/extensions/CirrusSearch]
 checkout = git clone 'ssh://Zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
