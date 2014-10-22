@@ -213,6 +213,12 @@ update =
 	   git branch | grep -vE 'production' | xargs git branch -D &&
 	   git pull origin production
 
+[Documents/wmf/VisualEditor/VisualEditor]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/VisualEditor/VisualEditor' 'VisualEditor'
+update = 
+	 update_git_repository &&
+	 install_ruby_gems
+
 
 
 # wmde
