@@ -8,7 +8,6 @@ lib =
 	   git pull origin master
 	 }
 	 install_ruby_gems () {
-	   cd tests/browser &&
 	   bundle
 	 }
 
