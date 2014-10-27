@@ -245,6 +245,10 @@ update =
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
 update = update_git_repository
 
+[Documents/github/filipin]
+checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
+update = git pull origin gh-pages
+
 [Documents/github/filipin-eu.github.io]
 checkout = git clone 'git@github.com:filipin-eu/filipin-eu.github.io.git' 'filipin-eu.github.io'
 update = git pull origin master
