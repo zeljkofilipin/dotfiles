@@ -253,7 +253,7 @@ update = git pull origin gh-pages
 checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
 update = git pull origin gh-pages
 
-[Documents/github/watirbook/manuscript]
-checkout = git clone 'git@github.com:watir/watirbook.git' 'manuscript'
+[Documents/github/watirbook]
+checkout = git clone 'git@github.com:watir/watirbook.git' 'watirbook'
 update = update_git_repository
 
