@@ -249,13 +249,9 @@ update = update_git_repository
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = git pull origin gh-pages
 
-[Documents/github/filipin-eu.github.io]
-checkout = git clone 'git@github.com:filipin-eu/filipin-eu.github.io.git' 'filipin-eu.github.io'
-update = git pull origin master
-
-[Documents/github/viaqa.github.io]
-checkout = git clone 'git@github.com:viaqa/viaqa.github.io.git' 'viaqa.github.io'
-update = git pull origin master
+[Documents/github/viaqa]
+checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
+update = git pull origin gh-pages
 
 [Documents/github/watirbook/manuscript]
 checkout = git clone 'git@github.com:watir/watirbook.git' 'manuscript'
