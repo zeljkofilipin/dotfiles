@@ -247,27 +247,33 @@ update =
 
 # github
 
-[Documents/github/dotfiles]
-checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
-update = update_git_repository
-
-[Documents/github/filipin]
-checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
-update = git pull origin gh-pages
-
-[Documents/github/testingpodcast]
-checkout = git clone 'git@github.com:zeljkofilipin/testingpodcast.git' 'testingpodcast'
-update = git pull origin gh-pages
-
-[Documents/github/viaqa]
-checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
-update = git pull origin gh-pages
-
-[Documents/github/watir]
+[Documents/github/watir/watir]
 checkout = git clone 'git@github.com:watir/watir.git' 'watir'
 update = git pull origin gh-pages
 
-[Documents/github/watirbook]
+[Documents/github/watir/watir-webdriver]
+checkout = git clone 'https://github.com/watir/watir-webdriver.git' 'watir-webdriver'
+update = update_git_repository
+
+[Documents/github/watir/watirbook]
 checkout = git clone 'git@github.com:watir/watirbook.git' 'watirbook'
 update = update_git_repository
+
+
+
+[Documents/github/zeljkofilipin/dotfiles]
+checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
+update = update_git_repository
+
+[Documents/github/zeljkofilipin/filipin]
+checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
+update = git pull origin gh-pages
+
+[Documents/github/zeljkofilipin/testingpodcast]
+checkout = git clone 'git@github.com:zeljkofilipin/testingpodcast.git' 'testingpodcast'
+update = git pull origin gh-pages
+
+[Documents/github/zeljkofilipin/viaqa]
+checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
+update = git pull origin gh-pages
 
