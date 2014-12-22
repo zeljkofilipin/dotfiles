@@ -116,8 +116,8 @@ set mouse=a
 " "press <Enter> to continue"
 set cmdheight=2
 
-" Display line numbers on the left
-set number
+" Display relative line numbers on the left
+set relativenumber
 
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
