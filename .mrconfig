@@ -247,18 +247,6 @@ update =
 
 # github
 
-[Documents/github/watir/watir]
-checkout = git clone 'git@github.com:watir/watir.git' 'watir'
-update = 
-	 git pull origin gh-pages &&
-	 install_ruby_gems
-
-[Documents/github/watir/watir-webdriver]
-checkout = git clone 'https://github.com/watir/watir-webdriver.git' 'watir-webdriver'
-update = 
-	 update_git_repository &&
-	 install_ruby_gems
-
 [Documents/github/watir/watirbook]
 checkout = git clone 'git@github.com:watir/watirbook.git' 'watirbook'
 update = 
@@ -287,12 +275,5 @@ update =
 checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
 update = 
 	 git pull origin gh-pages &&
-	 install_ruby_gems
-
-[Documents/github/zeljkofilipin/webcampzg.github.io]
-checkout = git clone 'git@github.com:zeljkofilipin/webcampzg.github.io.git' 'webcampzg.github.io'
-update = 
-	 update_git_repository &&
-	 cd _site &&
 	 install_ruby_gems
 
