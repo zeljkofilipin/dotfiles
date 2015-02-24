@@ -7,9 +7,6 @@ lib =
 	   git branch | grep -vE 'master' | xargs git branch -D &&
 	   git pull origin master
 	 }
-	 install_ruby_gems () {
-	   bundle
-	 }
 
 
 
@@ -55,7 +52,6 @@ update = update_git_repository
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
 update = 
 	 update_git_repository &&
-	 cd tests/browser &&
 	 bundle
 
 [Documents/gerrit/mediawiki/ruby/api]
@@ -74,12 +70,14 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/vagrant' 'vagrant'
 update = 
 	 update_git_repository &&
+	 bundle &&
 	 git submodule update --init --recursive
-	 ./setup.sh
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'mediawiki'
-update = update_git_repository
+update =
+	 update_git_repository &&
+	 bundle
 
 
 
@@ -89,37 +87,37 @@ update = update_git_repository
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ArticleFeedbackv5' 'ArticleFeedbackv5'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/CentralAuth]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralAuth' 'CentralAuth'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/CirrusSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/ContentTranslation]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/Echo]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Echo' 'Echo'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/Flow]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Flow' 'Flow'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/GettingStarted]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GettingStarted' 'GettingStarted'
@@ -129,55 +127,55 @@ update = update_git_repository
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Math' 'Math'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/MobileFrontend]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MobileFrontend' 'MobileFrontend'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/MultimediaViewer]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MultimediaViewer' 'MultimediaViewer'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/PageTriage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PageTriage' 'PageTriage'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/PdfHandler]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PdfHandler' 'PdfHandler'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/Translate]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Translate' 'Translate'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/TwnMainPage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/TwnMainPage' 'TwnMainPage'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/UniversalLanguageSelector]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UniversalLanguageSelector' 'UniversalLanguageSelector'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/UploadWizard]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UploadWizard' 'UploadWizard'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/VisualEditor]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
@@ -190,25 +188,25 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikiLove' 'WikiLove'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/ZeroBanner]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroBanner' 'ZeroBanner'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/mediawiki/extensions/ZeroPortal]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroPortal' 'ZeroPortal'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/gerrit/oojs/ui]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/oojs/ui' 'ui'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 
 
@@ -229,7 +227,7 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/VisualEditor/VisualEditor' 'VisualEditor'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 
 
@@ -239,7 +237,7 @@ update =
 checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 
 
@@ -249,7 +247,7 @@ update =
 checkout = git clone 'git@github.com:watir/watirbook.git' 'watirbook'
 update = 
 	 update_git_repository &&
-	 install_ruby_gems
+	 bundle
 
 
 
@@ -261,17 +259,17 @@ update = update_git_repository
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
 	 git pull origin gh-pages &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/github/zeljkofilipin/testingpodcast]
 checkout = git clone 'git@github.com:zeljkofilipin/testingpodcast.git' 'testingpodcast'
 update = 
 	 git pull origin gh-pages &&
-	 install_ruby_gems
+	 bundle
 
 [Documents/github/zeljkofilipin/viaqa]
 checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
 update = 
 	 git pull origin gh-pages &&
-	 install_ruby_gems
+	 bundle
 
