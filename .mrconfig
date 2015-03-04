@@ -94,6 +94,12 @@ update =
 	 update_git_repository &&
 	 bundle
 
+[Documents/gerrit/mediawiki/extensions/CentralNotice]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralNotice' 'CentralNotice'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/gerrit/mediawiki/extensions/CirrusSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update = 
@@ -114,6 +120,12 @@ update =
 
 [Documents/gerrit/mediawiki/extensions/Flow]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Flow' 'Flow'
+update = 
+	 update_git_repository &&
+	 bundle
+
+[Documents/gerrit/mediawiki/extensions/Gather]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Gather' 'Gather'
 update = 
 	 update_git_repository &&
 	 bundle
@@ -148,6 +160,12 @@ update =
 
 [Documents/gerrit/mediawiki/extensions/PdfHandler]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PdfHandler' 'PdfHandler'
+update = 
+	 update_git_repository &&
+	 bundle
+
+[Documents/gerrit/mediawiki/extensions/PoolCounter]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PoolCounter' 'PoolCounter'
 update = 
 	 update_git_repository &&
 	 bundle
