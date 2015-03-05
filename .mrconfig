@@ -198,7 +198,6 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update = 
 	 update_git_repository &&
-	 cd modules/ve-mw/tests/browser &&
 	 bundle
 
 [Documents/gerrit/mediawiki/extensions/WikiLove]
