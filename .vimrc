@@ -119,6 +119,9 @@ set cmdheight=2
 " Display relative line numbers on the left
 set relativenumber
 
+" Display absolute line numbers on the left
+set number
+
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
 
