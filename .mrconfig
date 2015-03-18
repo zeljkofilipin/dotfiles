@@ -63,8 +63,7 @@ update =
 [Documents/gerrit/mediawiki/selenium]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/selenium' 'selenium'
 update = 
-	 update_git_repository &&
-	 bundle
+	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/vagrant' 'vagrant'
