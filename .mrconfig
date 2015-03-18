@@ -28,8 +28,8 @@ update = update_git_repository
 [Documents/gerrit/integration/jenkins-job-builder]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder' 'jenkins-job-builder'
 update = 
-	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output; fi &&
-	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output_ ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output_; fi &&
+	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output-parent ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output-parent; fi &&
+	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output-proposed ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output-proposed; fi &&
 	 update_git_repository
 
 [Documents/gerrit/integration/jenkins-job-builder/config]
