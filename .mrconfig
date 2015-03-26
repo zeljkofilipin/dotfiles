@@ -285,6 +285,12 @@ update =
 	 git pull origin gh-pages &&
 	 bundle
 
+[Documents/github/zeljkofilipin/page-object-minimal]
+checkout = git clone 'git@github.com:zeljkofilipin/page-object-minimal.git' 'page-object-minimal'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/github/zeljkofilipin/testingpodcast]
 checkout = git clone 'git@github.com:zeljkofilipin/testingpodcast.git' 'testingpodcast'
 update = 
