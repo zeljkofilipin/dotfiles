@@ -73,7 +73,7 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'mediawiki'
-update =
+update = 
 	 update_git_repository &&
 	 bundle
 
@@ -246,17 +246,21 @@ update =
 
 
 
-# wmde
+# github
 
-[Documents/github/wmde/WikidataBrowserTests]
-checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
+[Documents/github/amire80/commons_upload]
+checkout = git clone 'git@github.com:amire80/commons_upload.git' 'commons_upload'
+update = 
+	 update_git_repository &&
+	 bundle
+
+[Documents/github/amire80/screenshot]
+checkout = git clone 'git@github.com:amire80/screenshot.git' 'screenshot'
 update = 
 	 update_git_repository &&
 	 bundle
 
 
-
-# github
 
 [Documents/github/watir/watirbook]
 checkout = git clone 'git@github.com:watir/watirbook.git' 'watirbook'
@@ -265,6 +269,11 @@ update =
 	 bundle
 
 
+[Documents/github/wmde/WikidataBrowserTests]
+checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
+update = 
+	 update_git_repository &&
+	 bundle
 
 [Documents/github/zeljkofilipin/dotfiles]
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
@@ -287,4 +296,3 @@ checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
 update = 
 	 git pull origin gh-pages &&
 	 bundle
-
