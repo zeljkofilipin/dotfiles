@@ -275,10 +275,6 @@ update =
 	 update_git_repository &&
 	 bundle
 
-[Documents/github/zeljkofilipin/dotfiles]
-checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
-update = update_git_repository
-
 [Documents/github/zeljkofilipin/filipin]
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
@@ -302,3 +298,7 @@ checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
 update = 
 	 git pull origin gh-pages &&
 	 bundle
+
+[Documents/github/zeljkofilipin/dotfiles]
+checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
+update = update_git_repository
