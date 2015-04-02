@@ -291,12 +291,6 @@ update =
 	 update_git_repository &&
 	 bundle
 
-[Documents/github/zeljkofilipin/testingpodcast]
-checkout = git clone 'git@github.com:zeljkofilipin/testingpodcast.git' 'testingpodcast'
-update = 
-	 git pull origin gh-pages &&
-	 bundle
-
 [Documents/github/zeljkofilipin/viaqa]
 checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
 update = 
