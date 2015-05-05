@@ -250,27 +250,6 @@ update =
 
 # github
 
-[Documents/github/amire80/commons_upload]
-checkout = git clone 'git@github.com:amire80/commons_upload.git' 'commons_upload'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/github/amire80/screenshot]
-checkout = git clone 'git@github.com:amire80/screenshot.git' 'screenshot'
-update = 
-	 update_git_repository &&
-	 bundle
-
-
-
-[Documents/github/watir/watirbook]
-checkout = git clone 'git@github.com:watir/watirbook.git' 'watirbook'
-update = 
-	 update_git_repository &&
-	 bundle
-
-
 [Documents/github/wmde/WikidataBrowserTests]
 checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
 update = 
@@ -297,9 +276,3 @@ update =
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-vagrant.git' 'selenium-vagrant'
 update = 
 	 update_git_repository
-
-[Documents/github/zeljkofilipin/viaqa]
-checkout = git clone 'git@github.com:zeljkofilipin/viaqa.git' 'viaqa'
-update = 
-	 git pull origin gh-pages &&
-	 bundle
