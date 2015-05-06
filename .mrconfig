@@ -15,7 +15,7 @@ lib =
 [/Users/z]
 update = 
 	 brew update &&
-	 brew upgrade
+	 brew upgrade &&
 	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
 
 
