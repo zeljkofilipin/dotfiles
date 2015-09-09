@@ -165,6 +165,12 @@ update =
 	 update_git_repository &&
 	 bundle
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/QuickSurveys]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/QuickSurveys' 'QuickSurveys'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Translate]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Translate' 'Translate'
 update = 
