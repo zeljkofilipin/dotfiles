@@ -250,6 +250,12 @@ update =
 	 update_git_repository &&
 	 bundle
 
+[Documents/github/wmde/WikidataApiGem]
+checkout = git clone 'git@github.com:wmde/WikidataApiGem.git' 'WikidataApiGem'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/github/zeljkofilipin/dotfiles]
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
 update = update_git_repository
