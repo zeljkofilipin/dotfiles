@@ -219,6 +219,10 @@ update =
 	 update_git_repository &&
 	 bundle
 
+
+
+# oojs
+
 [Documents/gerrit/oojs/ui]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/oojs/ui' 'ui'
 update = 
@@ -249,6 +253,18 @@ update =
 
 
 # github
+
+[Documents/github/amire80/commons_upload]
+checkout = git clone 'git@github.com:amire80/commons_upload.git' 'commons_upload'
+update = 
+	 update_git_repository &&
+	 bundle
+
+[Documents/github/amire80/screenshot]
+checkout = git clone 'git@github.com:amire80/screenshot.git' 'screenshot'
+update = 
+	 update_git_repository &&
+	 bundle
 
 [Documents/github/wmde/WikidataBrowserTests]
 checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
