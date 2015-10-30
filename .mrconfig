@@ -207,12 +207,6 @@ update =
 	 update_git_repository &&
 	 bundle
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ZeroBanner]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroBanner' 'ZeroBanner'
-update = 
-	 update_git_repository &&
-	 bundle
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ZeroPortal]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroPortal' 'ZeroPortal'
 update = 
