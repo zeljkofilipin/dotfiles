@@ -29,6 +29,11 @@ Plugin 'VundleVim/Vundle.vim'
 " Lightweight, customizable and functional Vim plugin for JSHint integration.
 Plugin 'Shutnik/jshint2.vim'
 
+" Syntax highlighting, matching rules and mappings for the original Markdown
+" and extensions.
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
