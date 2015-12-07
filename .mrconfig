@@ -281,14 +281,3 @@ checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
 	 git pull origin gh-pages &&
 	 bundle
-
-[Documents/github/zeljkofilipin/page-object-minimal]
-checkout = git clone 'git@github.com:zeljkofilipin/page-object-minimal.git' 'page-object-minimal'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/github/zeljkofilipin/selenium-vagrant]
-checkout = git clone 'git@github.com:zeljkofilipin/selenium-vagrant.git' 'selenium-vagrant'
-update = 
-	 update_git_repository
