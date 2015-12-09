@@ -18,3 +18,5 @@
 	required = true
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
+[url "ssh://zfilipin@gerrit.wikimedia.org:29418"]
+	insteadOf = https://zfilipin@gerrit.wikimedia.org/r
