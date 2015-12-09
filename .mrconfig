@@ -23,18 +23,18 @@ update =
 # integration
 
 [Documents/gerrit/integration/jenkins]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/jenkins' 'jenkins'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/integration/jenkins' 'jenkins'
 update = update_git_repository
 
 [Documents/gerrit/integration/jenkins-job-builder]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/jenkins-job-builder' 'jenkins-job-builder'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/integration/jenkins-job-builder' 'jenkins-job-builder'
 update = 
 	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output-parent ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output-parent; fi &&
 	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output-proposed ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output-proposed; fi &&
 	 update_git_repository
 
 [Documents/gerrit/integration/jenkins-job-builder/config]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/config' 'config'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/integration/config' 'config'
 update = update_git_repository
 
 
@@ -42,7 +42,7 @@ update = update_git_repository
 # labs
 
 [Documents/gerrit/labs/tools/grrrit]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/labs/tools/grrrit' 'grrrit'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/labs/tools/grrrit' 'grrrit'
 update = update_git_repository
 
 
@@ -50,13 +50,13 @@ update = update_git_repository
 # mediawiki
 
 [Documents/gerrit/mediawiki/ruby/api]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/ruby/api' 'api'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/ruby/api' 'api'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/selenium]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/selenium' 'selenium'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/selenium' 'selenium'
 update = 
 	 update_git_repository
 
@@ -65,150 +65,150 @@ update =
 # mediawiki/vagrant
 
 [Documents/gerrit/mediawiki/vagrant]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/vagrant' 'vagrant'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/vagrant' 'vagrant'
 update = 
 	 update_git_repository &&
 	 bundle &&
 	 git submodule update --init --recursive
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'mediawiki'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/core' 'mediawiki'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ArticleFeedbackv5]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ArticleFeedbackv5' 'ArticleFeedbackv5'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/ArticleFeedbackv5' 'ArticleFeedbackv5'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralAuth]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralAuth' 'CentralAuth'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/CentralAuth' 'CentralAuth'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralNotice]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralNotice' 'CentralNotice'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/CentralNotice' 'CentralNotice'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CirrusSearch]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ContentTranslation]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Echo]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Echo' 'Echo'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/Echo' 'Echo'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Flow]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Flow' 'Flow'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/Flow' 'Flow'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Gather]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Gather' 'Gather'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/Gather' 'Gather'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/GettingStarted]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GettingStarted' 'GettingStarted'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/GettingStarted' 'GettingStarted'
 update = update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Math]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Math' 'Math'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/Math' 'Math'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/MobileFrontend]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MobileFrontend' 'MobileFrontend'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend' 'MobileFrontend'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/MultimediaViewer]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MultimediaViewer' 'MultimediaViewer'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer' 'MultimediaViewer'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/PageTriage]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PageTriage' 'PageTriage'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/PageTriage' 'PageTriage'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/PdfHandler]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PdfHandler' 'PdfHandler'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/PdfHandler' 'PdfHandler'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/PoolCounter]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PoolCounter' 'PoolCounter'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/PoolCounter' 'PoolCounter'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/QuickSurveys]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/QuickSurveys' 'QuickSurveys'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/QuickSurveys' 'QuickSurveys'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Translate]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Translate' 'Translate'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/Translate' 'Translate'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TwnMainPage]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/TwnMainPage' 'TwnMainPage'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/TwnMainPage' 'TwnMainPage'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/UniversalLanguageSelector]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UniversalLanguageSelector' 'UniversalLanguageSelector'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/UniversalLanguageSelector' 'UniversalLanguageSelector'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/UploadWizard]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UploadWizard' 'UploadWizard'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/UploadWizard' 'UploadWizard'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/VisualEditor]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikiLove]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikiLove' 'WikiLove'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/WikiLove' 'WikiLove'
 update = 
 	 update_git_repository &&
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ZeroPortal]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ZeroPortal' 'ZeroPortal'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/mediawiki/extensions/ZeroPortal' 'ZeroPortal'
 update = 
 	 update_git_repository &&
 	 bundle
@@ -218,7 +218,7 @@ update =
 # oojs
 
 [Documents/gerrit/oojs/ui]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/oojs/ui' 'ui'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/oojs/ui' 'ui'
 update = 
 	 update_git_repository &&
 	 bundle
@@ -228,7 +228,7 @@ update =
 # operations
 #
 [Documents/gerrit/operations/puppet]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/operations/puppet' 'puppet'
 update = 
 	   git checkout production &&
 	   git branch | grep -vE 'production' | xargs git branch -D &&
@@ -239,7 +239,7 @@ update =
 # VisualEditor
 #
 [Documents/gerrit/VisualEditor/VisualEditor]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/VisualEditor/VisualEditor' 'VisualEditor'
+checkout = git clone 'https://zfilipin@gerrit.wikimedia.org/r/VisualEditor/VisualEditor' 'VisualEditor'
 update = 
 	 update_git_repository &&
 	 bundle
