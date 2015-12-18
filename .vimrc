@@ -26,6 +26,11 @@ Plugin 'VundleVim/Vundle.vim'
 " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
 
+" This is the development version of Vim's included runtime files for the Ruby
+" acceptance testing framework Cucumber. It provides syntax highlighting,
+" indenting, and some editing commands.
+Plugin 'tpope/vim-cucumber'
+
 " Lightweight, customizable and functional Vim plugin for JSHint integration.
 Plugin 'Shutnik/jshint2.vim'
 
