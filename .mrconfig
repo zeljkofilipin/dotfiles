@@ -165,6 +165,12 @@ update =
 	 update_git_repository &&
 	 bundle
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/RelatedArticles]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/RelatedArticles.git' 'RelatedArticles'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Translate]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Translate.git' 'Translate'
 update = 
