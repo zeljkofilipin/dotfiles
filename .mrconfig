@@ -77,12 +77,6 @@ update =
 	 update_git_repository &&
 	 bundle
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ArticleFeedbackv5]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ArticleFeedbackv5.git' 'ArticleFeedbackv5'
-update = 
-	 update_git_repository &&
-	 bundle
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralAuth]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CentralAuth.git' 'CentralAuth'
 update = 
