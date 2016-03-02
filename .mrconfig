@@ -77,6 +77,12 @@ update =
 	 update_git_repository &&
 	 bundle
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Cards]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Cards.git' 'Cards'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralAuth]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CentralAuth.git' 'CentralAuth'
 update = 
