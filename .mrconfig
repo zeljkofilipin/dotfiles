@@ -78,7 +78,7 @@ update =
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Cards]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Cards.git' 'Cards'
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cards.git' 'Cards'
 update = 
 	 update_git_repository &&
 	 bundle
@@ -208,7 +208,7 @@ update =
 	 bundle
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Wikibase]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase.git' 'Wikibase'
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Wikibase.git' 'Wikibase'
 update = 
 	 update_git_repository &&
 	 bundle
