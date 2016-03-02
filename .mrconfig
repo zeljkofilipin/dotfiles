@@ -207,6 +207,12 @@ update =
 	 update_git_repository &&
 	 bundle
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Wikibase]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase.git' 'Wikibase'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikiLove]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiLove.git' 'WikiLove'
 update = 
