@@ -20,6 +20,14 @@ update =
 
 
 
+# diffusion
+
+[Documents/diffusion/malu]
+checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/diffusion/GMALU/malu.git' 'malu'
+update = update_git_repository
+
+
+
 # integration
 
 [Documents/gerrit/integration/jenkins]
