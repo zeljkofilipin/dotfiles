@@ -248,7 +248,7 @@ update =
 # wikidata
 
 [Documents/gerrit/wikidata/browsertests]
-checkout = git clone 'https://gerrit.wikimedia.org/r/wikidata/browsertests' 'browsertests'
+checkout = git clone 'https://gerrit.wikimedia.org/r/wikidata/browsertests.git' 'browsertests'
 update = 
 	 update_git_repository &&
 	 bundle
