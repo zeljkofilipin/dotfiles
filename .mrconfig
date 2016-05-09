@@ -245,6 +245,16 @@ update =
 
 
 
+# wikidata
+
+[Documents/gerrit/wikidata/browsertests]
+checkout = git clone 'https://gerrit.wikimedia.org/r/wikidata/browsertests' 'browsertests'
+update = 
+	 update_git_repository &&
+	 bundle
+
+
+
 # operations
 #
 [Documents/gerrit/operations/puppet]
@@ -276,12 +286,6 @@ update =
 
 [Documents/github/amire80/screenshot]
 checkout = git clone 'git@github.com:amire80/screenshot.git' 'screenshot'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/github/wmde/WikidataBrowserTests]
-checkout = git clone 'git@github.com:wmde/WikidataBrowserTests.git' 'WikidataBrowserTests'
 update = 
 	 update_git_repository &&
 	 bundle
