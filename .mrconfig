@@ -309,3 +309,7 @@ update =
 [Documents/github/zeljkofilipin/learnyounode]
 checkout = git clone 'https://github.com/zeljkofilipin/learnyounode.git' 'learnyounode'
 update = update_git_repository
+
+[Documents/github/zeljkofilipin/set-game-js]
+checkout = git clone 'https://github.com/zeljkofilipin/set-game-js.git' 'set-game-js'
+update = update_git_repository
