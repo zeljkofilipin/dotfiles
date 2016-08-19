@@ -47,14 +47,6 @@ update = update_git_repository
 
 
 
-# labs
-
-[Documents/gerrit/labs/tools/grrrit]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/labs/tools/grrrit.git' 'grrrit'
-update = update_git_repository
-
-
-
 # mediawiki
 
 [Documents/gerrit/mediawiki/ruby/api]
@@ -85,12 +77,6 @@ update =
 	 update_git_repository &&
 	 bundle
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Cards]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cards.git' 'Cards'
-update = 
-	 update_git_repository &&
-	 bundle
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralAuth]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CentralAuth.git' 'CentralAuth'
 update = 
@@ -109,12 +95,6 @@ update =
 	 update_git_repository &&
 	 bundle
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ContentTranslation]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ContentTranslation.git' 'ContentTranslation'
-update = 
-	 update_git_repository &&
-	 bundle
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Echo]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Echo.git' 'Echo'
 update = 
@@ -123,12 +103,6 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Flow]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Flow.git' 'Flow'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Gather]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Gather.git' 'Gather'
 update = 
 	 update_git_repository &&
 	 bundle
@@ -161,18 +135,6 @@ update =
 	 update_git_repository &&
 	 bundle
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/PdfHandler]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PdfHandler.git' 'PdfHandler'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/PoolCounter]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PoolCounter.git' 'PoolCounter'
-update = 
-	 update_git_repository &&
-	 bundle
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/QuickSurveys]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/QuickSurveys.git' 'QuickSurveys'
 update = 
@@ -181,30 +143,6 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/RelatedArticles]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/RelatedArticles.git' 'RelatedArticles'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Translate]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Translate.git' 'Translate'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TwnMainPage]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TwnMainPage.git' 'TwnMainPage'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/UniversalLanguageSelector]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UniversalLanguageSelector.git' 'UniversalLanguageSelector'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/UploadWizard]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UploadWizard.git' 'UploadWizard'
 update = 
 	 update_git_repository &&
 	 bundle
@@ -223,22 +161,6 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikiLove]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiLove.git' 'WikiLove'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ZeroPortal]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ZeroPortal.git' 'ZeroPortal'
-update = 
-	 update_git_repository &&
-	 bundle
-
-
-
-# oojs
-
-[Documents/gerrit/oojs/ui]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/oojs/ui.git' 'ui'
 update = 
 	 update_git_repository &&
 	 bundle
@@ -263,16 +185,6 @@ update =
 	   git checkout production &&
 	   git branch | grep -vE 'production' | xargs git branch -D &&
 	   git pull origin production
-
-
-
-# VisualEditor
-#
-[Documents/gerrit/VisualEditor/VisualEditor]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/VisualEditor/VisualEditor.git' 'VisualEditor'
-update = 
-	 update_git_repository &&
-	 bundle
 
 
 
@@ -305,11 +217,3 @@ checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
 	 git pull origin gh-pages &&
 	 bundle
-
-[Documents/github/zeljkofilipin/learnyounode]
-checkout = git clone 'https://github.com/zeljkofilipin/learnyounode.git' 'learnyounode'
-update = update_git_repository
-
-[Documents/github/zeljkofilipin/set-game-js]
-checkout = git clone 'https://github.com/zeljkofilipin/set-game-js.git' 'set-game-js'
-update = update_git_repository
