@@ -167,16 +167,6 @@ update =
 
 
 
-# wikidata
-
-[Documents/gerrit/wikidata/browsertests]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/wikidata/browsertests.git' 'browsertests'
-update = 
-	 update_git_repository &&
-	 bundle
-
-
-
 # operations
 #
 [Documents/gerrit/operations/puppet]
