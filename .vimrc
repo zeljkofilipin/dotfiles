@@ -1,4 +1,4 @@
-" VIM Configuration - Vincent Jousse
+" VIM Configuration - Željko Filipin
 " Cancel the compatibility with Vi. Essential if you want
 " to enjoy the features of Vim
 set nocompatible
@@ -66,3 +66,9 @@ imap <right> <nop>
 
 " Exit insert mode with jk
 :imap jk <Esc>
+
+" Set ~/tmp as backup directory
+set backupdir=~/tmp
+
+" Set ~/tmp as swap file directory
+set dir=~/tmp
