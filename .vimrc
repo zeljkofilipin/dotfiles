@@ -73,3 +73,6 @@ set backupdir=~/tmp
 
 " Set ~/tmp as swap file directory
 set dir=~/tmp
+
+" Display whitespace
+set list
