@@ -63,3 +63,6 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+" Exit insert mode with jk
+:imap jk <Esc>
