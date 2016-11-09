@@ -76,3 +76,6 @@ set dir=~/tmp
 
 " Display whitespace
 set list
+
+" Map , as leader key
+let mapleader = ","
