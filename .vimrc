@@ -52,9 +52,6 @@ colorscheme solarized
 set guifont=Monaco:h13
 set antialias
 
-" Activate the NERDTree when launching vim
-autocmd vimenter * NERDTree
-
 " Disabling the directional keys
 map <up> <nop>
 map <down> <nop>
