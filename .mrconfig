@@ -180,18 +180,6 @@ update =
 
 # github
 
-[Documents/github/amire80/commons_upload]
-checkout = git clone 'git@github.com:amire80/commons_upload.git' 'commons_upload'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/github/amire80/screenshot]
-checkout = git clone 'git@github.com:amire80/screenshot.git' 'screenshot'
-update = 
-	 update_git_repository &&
-	 bundle
-
 [Documents/github/wmde/WikidataApiGem]
 checkout = git clone 'git@github.com:wmde/WikidataApiGem.git' 'WikidataApiGem'
 update = 
@@ -206,4 +194,15 @@ update = update_git_repository
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
 	 git pull origin gh-pages &&
+	 bundle
+
+[Documents/github/zeljkofilipin/selenium-mediawiki-js]
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-js.git' 'selenium-mediawiki-js'
+update = 
+	 update_git_repository
+
+[Documents/github/zeljkofilipin/selenium-mediawiki-rb]
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-rb.git' 'selenium-mediawiki-rb'
+update = 
+	 update_git_repository &&
 	 bundle
