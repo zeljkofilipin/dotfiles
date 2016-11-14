@@ -196,6 +196,12 @@ update =
 	 git pull origin gh-pages &&
 	 bundle
 
+[Documents/github/zeljkofilipin/selenium-mediawiki-cucumber]
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-cucumber.git' 'selenium-mediawiki-cucumber'
+update = 
+	 update_git_repository &&
+	 bundle
+
 [Documents/github/zeljkofilipin/selenium-mediawiki-js]
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-js.git' 'selenium-mediawiki-js'
 update = 
@@ -203,12 +209,6 @@ update =
 
 [Documents/github/zeljkofilipin/selenium-mediawiki-rb]
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-rb.git' 'selenium-mediawiki-rb'
-update = 
-	 update_git_repository &&
-	 bundle
-
-[Documents/github/zeljkofilipin/selenium-mediawiki-rspec]
-checkout = git clone 'https://github.com/zeljkofilipin/selenium-mediawiki-rspec.git' 'selenium-mediawiki-rspec'
 update = 
 	 update_git_repository &&
 	 bundle
