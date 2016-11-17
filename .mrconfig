@@ -207,6 +207,11 @@ checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-js.git' 's
 update = 
 	 update_git_repository
 
+[Documents/github/zeljkofilipin/selenium-mediawiki-mocha]
+checkout = git clone 'https://github.com/zeljkofilipin/selenium-mediawiki-mocha.git' 'selenium-mediawiki-mocha'
+update = 
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/selenium-mediawiki-rb]
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-rb.git' 'selenium-mediawiki-rb'
 update = 
