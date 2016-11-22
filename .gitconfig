@@ -4,7 +4,7 @@
 	untracket = cyan
 [core]
 	excludesfile = /Users/z/.gitignore_global
-	editor = vim
+	editor = mvim
 [gitreview]
 	username = Zfilipin
 	remote = origin
