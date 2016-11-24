@@ -44,10 +44,6 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" Use the dark version of Solarized
-set background=dark
-colorscheme solarized
-
 " Change the font
 set guifont=Monaco:h13
 set antialias
