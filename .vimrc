@@ -16,8 +16,6 @@ set wrap                  " Wrap lines when they are too long
 set scrolloff=3           " Display at least 3 lines around you cursor
                           " (for scrolling)
 
-set guioptions=T          " Enable the toolbar
-
 " -- Search
 set ignorecase            " Ignore case when searching
 set smartcase             " If there is an uppercase in your search term
