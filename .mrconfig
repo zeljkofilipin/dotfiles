@@ -193,7 +193,7 @@ update = update_git_repository
 [Documents/github/zeljkofilipin/filipin]
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
-	 git pull origin gh-pages &&
+	 update_git_repository &&
 	 bundle
 
 [Documents/github/zeljkofilipin/mediawiki-nightwatch]
