@@ -201,6 +201,11 @@ checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-nightwatch.git'
 update = 
 	 update_git_repository
 
+[Documents/github/zeljkofilipin/mediawiki-selenium-nodejs]
+checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
+update = 
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/mediawiki-webdriverio]
 checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
 update = 
@@ -211,11 +216,6 @@ checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-cucumber.g
 update = 
 	 update_git_repository &&
 	 bundle
-
-[Documents/github/zeljkofilipin/selenium-mediawiki-js]
-checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-js.git' 'selenium-mediawiki-js'
-update = 
-	 update_git_repository
 
 [Documents/github/zeljkofilipin/selenium-mediawiki-mocha]
 checkout = git clone 'https://github.com/zeljkofilipin/selenium-mediawiki-mocha.git' 'selenium-mediawiki-mocha'
