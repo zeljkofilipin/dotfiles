@@ -68,7 +68,6 @@ update =
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/vagrant.git' 'vagrant'
 update = 
 	 update_git_repository &&
-	 bundle &&
 	 git submodule update --init --recursive
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki]
