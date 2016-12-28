@@ -16,6 +16,7 @@ lib =
 update = 
 	 brew update &&
 	 brew upgrade &&
+	 gem install bundler &&
 	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
 
 
