@@ -177,6 +177,10 @@ update =
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
 update = update_git_repository
 
+[Documents/github/zeljkofilipin/eloquent-javascript]
+checkout = git clone 'https://github.com/zeljkofilipin/eloquent-javascript.git' 'eloquent-javascript'
+update = update_git_repository
+
 [Documents/github/zeljkofilipin/filipin]
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
