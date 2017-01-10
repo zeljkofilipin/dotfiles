@@ -156,6 +156,11 @@ update =
 
 
 # operations
+
+[Documents/gerrit/operations/mediawiki-config]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/operations/mediawiki-config' 'mediawiki-config'
+update = 
+	 update_git_repository
 #
 [Documents/gerrit/operations/puppet]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/operations/puppet.git' 'puppet'
