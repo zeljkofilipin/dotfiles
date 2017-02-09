@@ -183,7 +183,7 @@ checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
 update = update_git_repository
 
 [Documents/github/zeljkofilipin/eloquent-javascript]
-checkout = git clone 'https://github.com/zeljkofilipin/eloquent-javascript.git' 'eloquent-javascript'
+checkout = git clone 'git@github.com:zeljkofilipin/eloquent-javascript.git' 'eloquent-javascript'
 update = update_git_repository
 
 [Documents/github/zeljkofilipin/filipin]
@@ -192,21 +192,21 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-selenium-nodejs]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-webdriverio]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-webdriverjs]
-checkout = git clone 'https://github.com/zeljkofilipin/selenium-mediawiki-mocha.git' 'mediawiki-webdriverjs'
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-mocha.git' 'mediawiki-webdriverjs'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/scratch-games]
-checkout = git clone 'https://github.com/zeljkofilipin/scratch-games.git' 'scratch-games'
+checkout = git clone 'git@github.com:zeljkofilipin/scratch-games.git' 'scratch-games'
 update = 
 	 update_git_repository
