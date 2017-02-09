@@ -191,11 +191,6 @@ checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/mediawiki-nightwatch]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-nightwatch.git' 'mediawiki-nightwatch'
-update = 
-	 update_git_repository
-
 [Documents/github/zeljkofilipin/mediawiki-selenium-nodejs]
 checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
 update = 
@@ -206,17 +201,12 @@ checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-webdriverio.git
 update = 
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/selenium-mediawiki-cucumber]
-checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-cucumber.git' 'selenium-mediawiki-cucumber'
+[Documents/github/zeljkofilipin/mediawiki-webdriverjs]
+checkout = git clone 'https://github.com/zeljkofilipin/selenium-mediawiki-mocha.git' 'mediawiki-webdriverjs'
 update = 
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/selenium-mediawiki-mocha]
-checkout = git clone 'https://github.com/zeljkofilipin/selenium-mediawiki-mocha.git' 'selenium-mediawiki-mocha'
-update = 
-	 update_git_repository
-
-[Documents/github/zeljkofilipin/selenium-mediawiki-rb]
-checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-rb.git' 'selenium-mediawiki-rb'
+[Documents/github/zeljkofilipin/scratch-games]
+checkout = git clone 'https://github.com/zeljkofilipin/scratch-games.git' 'scratch-games'
 update = 
 	 update_git_repository
