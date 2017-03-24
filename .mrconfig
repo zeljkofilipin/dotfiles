@@ -23,14 +23,6 @@ update =
 
 
 
-# diffusion
-
-[Documents/diffusion/malu]
-checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/diffusion/GMALU/malu.git' 'malu'
-update = update_git_repository
-
-
-
 # integration
 
 [Documents/gerrit/integration/jenkins]
@@ -200,11 +192,6 @@ update =
 
 [Documents/github/zeljkofilipin/mediawiki-webdriverio]
 checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
-update = 
-	 update_git_repository
-
-[Documents/github/zeljkofilipin/mediawiki-webdriverjs]
-checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-mocha.git' 'mediawiki-webdriverjs'
 update = 
 	 update_git_repository
 
