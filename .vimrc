@@ -56,9 +56,6 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
-" Exit insert mode with kj
-:imap kj <Esc>
-
 " Set ~/tmp as backup directory
 set backupdir=~/tmp
 
