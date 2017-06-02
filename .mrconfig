@@ -180,3 +180,8 @@ update = update_git_repository
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
 	 update_git_repository
+
+[Documents/github/zeljkofilipin/testival]
+checkout = git clone 'git@github.com:zeljkofilipin/testival.git' 'testival'
+update = 
+	 update_git_repository
