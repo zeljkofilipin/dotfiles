@@ -185,3 +185,12 @@ update =
 checkout = git clone 'git@github.com:zeljkofilipin/testival.git' 'testival'
 update = 
 	 update_git_repository
+
+
+
+# phabricator
+
+[Documents/phabricator/releng-secrets]
+checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/releng-secrets.git' 'releng-secrets'
+update = 
+	 update_git_repository
