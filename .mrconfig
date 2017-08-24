@@ -27,18 +27,18 @@ update =
 
 [Documents/gerrit/integration/jenkins]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/integration/jenkins.git' 'jenkins'
-update = update_git_repository
+update = 
+	 update_git_repository
 
 [Documents/gerrit/integration/jenkins-job-builder]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/integration/jenkins-job-builder.git' 'jenkins-job-builder'
 update = 
-	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output-parent ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output-parent; fi &&
-	 if [ -d ~/Documents/gerrit/integration/jenkins-job-builder/output-proposed ]; then rm -rv ~/Documents/gerrit/integration/jenkins-job-builder/output-proposed; fi &&
 	 update_git_repository
 
 [Documents/gerrit/integration/jenkins-job-builder/config]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/integration/config.git' 'config'
-update = update_git_repository
+update = 
+	 update_git_repository
 
 
 
@@ -96,11 +96,13 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/GettingStarted]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/GettingStarted.git' 'GettingStarted'
-update = update_git_repository
+update = 
+	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Kartographer]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Kartographer.git' 'Kartographer'
-update = update_git_repository
+update = 
+	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Math]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Math.git' 'Math'
@@ -179,7 +181,8 @@ update =
 
 [Documents/github/zeljkofilipin/dotfiles]
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
-update = update_git_repository
+update = 
+	 update_git_repository
 
 [Documents/github/zeljkofilipin/filipin]
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
