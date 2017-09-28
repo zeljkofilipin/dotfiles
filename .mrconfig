@@ -124,6 +124,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Page
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Popups]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Popups.git' 'Popups'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/QuickSurveys]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/QuickSurveys.git' 'QuickSurveys'
 update = 
