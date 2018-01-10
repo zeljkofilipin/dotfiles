@@ -89,18 +89,13 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Echo
 update = 
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Flow]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Flow.git' 'Flow'
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ElectronPdfService]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ElectronPdfService.git' 'ElectronPdfService'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/GettingStarted]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/GettingStarted.git' 'GettingStarted'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Kartographer]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Kartographer.git' 'Kartographer'
 update = 
 	 update_git_repository
 
@@ -119,11 +114,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Mult
 update = 
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/PageTriage]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PageTriage.git' 'PageTriage'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Popups]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Popups.git' 'Popups'
 update = 
@@ -139,18 +129,8 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Rela
 update = 
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/VisualEditor]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git' 'VisualEditor'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Wikibase]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Wikibase.git' 'Wikibase'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikiLove]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiLove.git' 'WikiLove'
 update = 
 	 update_git_repository
 
