@@ -129,6 +129,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Rela
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/VisualEditor]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git' 'VisualEditor'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Wikibase]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Wikibase.git' 'Wikibase'
 update = 
