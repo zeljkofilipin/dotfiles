@@ -114,6 +114,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Mult
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ORES]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ORES.git' 'ORES'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Popups]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Popups.git' 'Popups'
 update = 
