@@ -69,6 +69,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'medi
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/AdvancedSearch]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AdvancedSearch.git' 'AdvancedSearch'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralAuth]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CentralAuth.git' 'CentralAuth'
 update = 
