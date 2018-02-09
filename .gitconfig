@@ -5,18 +5,19 @@
 [core]
 	excludesfile = /Users/z/.gitignore_global
 	editor = vim
-[gitreview]
-	username = Zfilipin
-	remote = origin
-[user]
-	name = Željko Filipin
-	email = zeljko.filipin@gmail.com
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
 [filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 	required = true
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
+[gitreview]
+	username = Zfilipin
+	remote = origin
 [url "ssh://zfilipin@gerrit.wikimedia.org:29418/"]
 	insteadOf = https://gerrit.wikimedia.org/r/p/
+[user]
+	name = Željko Filipin
+	email = zeljko.filipin@gmail.com
