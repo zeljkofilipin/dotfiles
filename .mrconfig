@@ -198,6 +198,11 @@ update =
 
 # phabricator
 
+[Documents/phabricator/phab-deployment]
+checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/phab-deployment.git' 'phab-deployment'
+update = 
+	 update_git_repository
+
 [Documents/phabricator/releng-secrets]
 checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/releng-secrets.git' 'releng-secrets'
 update = 
