@@ -201,7 +201,9 @@ update =
 [Documents/phabricator/phab-deployment]
 checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/phab-deployment.git' 'phab-deployment'
 update = 
-	 update_git_repository
+	   git checkout wmf/stable &&
+	   git branch | grep -vE 'wmf/stable' | xargs git branch -D &&
+	   git pull origin wmf/stable
 
 [Documents/phabricator/releng-secrets]
 checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/releng-secrets.git' 'releng-secrets'
