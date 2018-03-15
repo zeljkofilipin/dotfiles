@@ -154,6 +154,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/skins/MinervaNe
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/skins/Vector]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/skins/Vector.git' 'Vector'
+update = 
+	 update_git_repository
+
 
 
 # operations
