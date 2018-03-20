@@ -149,6 +149,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Wiki
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikibaseLexeme]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikibaseLexeme' 'WikibaseLexeme'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/skins/MinervaNeue]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/skins/MinervaNeue.git' 'MinervaNeue'
 update = 
