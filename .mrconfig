@@ -40,6 +40,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/integration/config.git' '
 update = 
 	 update_git_repository
 
+[Documents/gerrit/integration/quibble]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/integration/quibble.git' 'quibble'
+update = 
+	 update_git_repository
+
 
 
 # mediawiki
