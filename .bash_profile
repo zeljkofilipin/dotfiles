@@ -5,5 +5,4 @@ export LC_ALL=en_US.UTF-8
 export PATH=~/Documents/phabricator/arcanist/bin:$PATH # https://www.mediawiki.org/wiki/Phabricator/Arcanist
 
 # brew install pyenv pyenv-virtualenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
