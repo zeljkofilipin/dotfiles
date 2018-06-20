@@ -54,6 +54,16 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core' 'core'
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/Wikibase]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase.git' 'Wikibase'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/extensions/WikibaseLexeme]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseLexeme' 'WikibaseLexeme'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/skins/Vector]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector' 'Vector'
 update = 
