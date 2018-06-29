@@ -50,22 +50,22 @@ update =
 # mediawiki
 
 [Documents/gerrit/mediawiki/core]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core' 'core'
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core' 'core'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/core/extensions/Wikibase]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase.git' 'Wikibase'
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Wikibase.git' 'Wikibase'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/core/extensions/WikibaseLexeme]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseLexeme' 'WikibaseLexeme'
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikibaseLexeme' 'WikibaseLexeme'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/core/skins/Vector]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector' 'Vector'
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/skins/Vector' 'Vector'
 update = 
 	 update_git_repository
 
