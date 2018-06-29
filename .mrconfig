@@ -169,6 +169,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Rela
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TwoColConflict]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TwoColConflict.git' 'RelatedArticles'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/VisualEditor]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git' 'VisualEditor'
 update = 
