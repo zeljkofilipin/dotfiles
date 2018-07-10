@@ -79,6 +79,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/selenium.git' '
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/tools/release]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/tools/release.git' 'release'
+update = 
+	 update_git_repository
+
 
 
 # mediawiki/vagrant
