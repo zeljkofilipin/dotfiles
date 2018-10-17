@@ -3,9 +3,6 @@
 " to enjoy the features of Vim
 set nocompatible
 
-" Activate pathogen
-call pathogen#infect()
-
 " -- Display
 set title                 " Update the title of your window or your terminal
 set number                " Display absolute line numbers
