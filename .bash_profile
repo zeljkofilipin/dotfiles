@@ -13,3 +13,7 @@ export LC_ALL=en_US.UTF-8
 # fab
 # pip install fabric==1.14.0 --user
 export PATH=~/Library/Python/2.7/bin:$PATH
+
+# Homebrew
+export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
