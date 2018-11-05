@@ -5,6 +5,8 @@ PS1="\w$ "
 GPG_TTY=$(tty)
 export GPG_TTY
 
+# Fix `locale.Error: unsupported locale setting` error message
+# https://phabricator.wikimedia.org/P4538
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
