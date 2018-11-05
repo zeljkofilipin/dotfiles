@@ -1,4 +1,5 @@
-PS1="\w$ " # custom bash prompt user@host:working directory
+# custom bash prompt user@host:working directory
+PS1="\w$ "
 
 # pwstore
 GPG_TTY=$(tty)
