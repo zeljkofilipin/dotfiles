@@ -16,3 +16,17 @@ nnoremap <C-p> :<C-u>FZF<CR>
 "
 " reload file if it has been changed outside vim
 set autoread
+
+" indentation
+"
+" tabs
+set tabstop=2
+
+" indents
+set shiftwidth=2
+
+" number of columns for a tab
+set softtabstop=2
+
+" expand tabs to spaces
+set expandtab
