@@ -40,4 +40,4 @@ set expandtab
 
 
 " folding
-setlocal foldmethod=indent
+set foldmethod=indent
