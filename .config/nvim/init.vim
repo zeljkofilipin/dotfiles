@@ -7,15 +7,21 @@ set relativenumber
 " whitespace
 set list
 
+
+
 " search
 "
 " fuzzy finder
 nnoremap <C-p> :<C-u>FZF<CR>
 
+
+
 " file
 "
 " reload file if it has been changed outside vim
 set autoread
+
+
 
 " indentation
 "
@@ -30,3 +36,8 @@ set softtabstop=2
 
 " expand tabs to spaces
 set expandtab
+
+
+
+" folding
+setlocal foldmethod=indent
