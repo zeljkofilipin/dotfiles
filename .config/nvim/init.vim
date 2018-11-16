@@ -13,6 +13,8 @@ set list
 "
 " fuzzy finder
 nnoremap <C-p> :<C-u>FZF<CR>
+" search hightlight foreground and background colors
+highlight Search ctermfg=Black ctermbg=DarkGreen
 
 
 
