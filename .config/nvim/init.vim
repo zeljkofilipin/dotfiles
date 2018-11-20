@@ -43,3 +43,10 @@ set expandtab
 
 " folding
 set foldmethod=indent
+
+" terminal
+"
+" switch from terminal to normal mode with <Esc>
+tnoremap <Esc> <C-\><C-n>
+" send <Esc> to a command in terminal with <C-v><Esc> (verbose <Esc>)
+tnoremap <C-v><Esc> <Esc>
