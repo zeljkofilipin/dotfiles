@@ -23,3 +23,4 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # Node 10 via Homebrew
 export PATH="/usr/local/opt/node@10/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
