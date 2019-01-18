@@ -18,9 +18,8 @@ export PATH=~/Library/Python/2.7/bin:$PATH
 export PATH="/usr/local/lib/ruby/gems/2.6.0/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Node 10 via Homebrew
 export PATH="/usr/local/opt/node@10/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
