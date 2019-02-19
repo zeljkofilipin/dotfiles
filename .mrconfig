@@ -124,6 +124,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cirr
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ContentTranslation]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ContentTranslation.git' 'ContentTranslation'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Echo]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Echo.git' 'Echo'
 update = 
