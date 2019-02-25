@@ -189,6 +189,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Revi
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TimedMediaHandler]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TimedMediaHandler.git' 'TimedMediaHandler'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TwoColConflict]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TwoColConflict.git' 'TwoColConflict'
 update = 
