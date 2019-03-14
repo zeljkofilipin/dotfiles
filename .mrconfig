@@ -124,6 +124,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cirr
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Cite]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git' 'Cite'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ContentTranslation]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ContentTranslation.git' 'ContentTranslation'
 update = 
@@ -186,6 +191,11 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/RevisionSlider]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/RevisionSlider.git' 'RevisionSlider'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TemplateWizard]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TemplateWizard.git' 'TemplateWizard'
 update = 
 	 update_git_repository
 
