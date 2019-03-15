@@ -149,6 +149,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Gett
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/GrowthExperiments]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/GrowthExperiments.git' 'GrowthExperiments'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Math]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Math.git' 'Math'
 update = 
