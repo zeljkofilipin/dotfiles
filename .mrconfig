@@ -247,7 +247,7 @@ update =
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/operations/mediawiki-config.git' 'mediawiki-config'
 update = 
 	 update_git_repository
-#
+
 [Documents/gerrit/operations/puppet]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/operations/puppet.git' 'puppet'
 update = 
