@@ -17,7 +17,7 @@
 	username = Zfilipin
 	remote = origin
 [url "ssh://zfilipin@gerrit.wikimedia.org:29418/"]
-	insteadOf = https://gerrit.wikimedia.org/r/p/
+	insteadOf = https://gerrit.wikimedia.org/r/
 [user]
 	name = Željko Filipin
 	email = zeljko.filipin@gmail.com
