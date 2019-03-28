@@ -241,6 +241,15 @@ update =
 
 
 
+# releng
+
+[Documents/gerrit/releng/local-charts]
+checkout = git clone 'https://gerrit.wikimedia.org/r/releng/local-charts' 'local-charts'
+update = 
+	 update_git_repository
+
+
+
 # operations
 
 [Documents/gerrit/operations/mediawiki-config]
