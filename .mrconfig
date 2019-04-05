@@ -64,6 +64,16 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikiba
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/services/parsoid]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/services/parsoid' 'parsoid'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/services/restbase]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/services/restbase' 'restbase'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/skins/Vector]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector.git' 'Vector'
 update = 
