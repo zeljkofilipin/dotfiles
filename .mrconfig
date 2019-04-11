@@ -239,6 +239,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikiba
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikibaseMediaInfo]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseMediaInfo' 'WikibaseMediaInfo'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/skins/MinervaNeue]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue.git' 'MinervaNeue'
 update = 
