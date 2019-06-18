@@ -59,6 +59,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikiba
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikibaseCirrusSearch]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseCirrusSearch.git' 'WikibaseCirrusSearch'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/WikibaseLexeme]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseLexeme.git' 'WikibaseLexeme'
 update = 
