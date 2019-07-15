@@ -26,11 +26,6 @@ update =
 
 # integration
 
-[Documents/gerrit/integration/jenkins]
-checkout = git clone 'https://gerrit.wikimedia.org/r/integration/jenkins.git' 'jenkins'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/integration/jenkins-job-builder]
 checkout = git clone 'https://gerrit.wikimedia.org/r/integration/jenkins-job-builder.git' 'jenkins-job-builder'
 update = 
@@ -41,49 +36,9 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/integration/config.git' 'co
 update = 
 	 update_git_repository
 
-[Documents/gerrit/integration/quibble]
-checkout = git clone 'https://gerrit.wikimedia.org/r/integration/quibble.git' 'quibble'
-update = 
-	 update_git_repository
-
 
 
 # mediawiki
-
-[Documents/gerrit/mediawiki/core]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core.git' 'core'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/core/extensions/Wikibase]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase.git' 'Wikibase'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikibaseCirrusSearch]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseCirrusSearch.git' 'WikibaseCirrusSearch'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/core/extensions/WikibaseLexeme]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseLexeme.git' 'WikibaseLexeme'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/core/services/parsoid]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/services/parsoid' 'parsoid'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/core/services/restbase]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/services/restbase' 'restbase'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/core/skins/Vector]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector.git' 'Vector'
-update = 
-	 update_git_repository
 
 [Documents/gerrit/mediawiki/ruby/api]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/ruby/api.git' 'api'
@@ -92,11 +47,6 @@ update =
 
 [Documents/gerrit/mediawiki/selenium]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/selenium.git' 'selenium'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/tools/release]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/tools/release.git' 'release'
 update = 
 	 update_git_repository
 
@@ -115,23 +65,8 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core.git' 'mediaw
 update = 
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/AbuseFilter]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter.git' 'AbuseFilter'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/AdvancedSearch]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AdvancedSearch.git' 'AdvancedSearch'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralAuth]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CentralAuth.git' 'CentralAuth'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CentralNotice]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CentralNotice.git' 'CentralNotice'
 update = 
 	 update_git_repository
 
@@ -145,11 +80,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite.g
 update = 
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ContentTranslation]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ContentTranslation.git' 'ContentTranslation'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Echo]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo.git' 'Echo'
 update = 
@@ -157,11 +87,6 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ElectronPdfService]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ElectronPdfService.git' 'ElectronPdfService'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/GettingStarted]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/GettingStarted.git' 'GettingStarted'
 update = 
 	 update_git_repository
 
@@ -220,11 +145,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Templa
 update = 
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TimedMediaHandler]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/TimedMediaHandler.git' 'TimedMediaHandler'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TwoColConflict]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/TwoColConflict.git' 'TwoColConflict'
 update = 
@@ -237,6 +157,11 @@ update =
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Wikibase]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase.git' 'Wikibase'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikibaseCirrusSearch]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseCirrusSearch' 'WikibaseCirrusSearch'
 update = 
 	 update_git_repository
 
@@ -255,17 +180,21 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue
 update = 
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/vagrant/mediawiki/skins/Vector]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector.git' 'Vector'
-update = 
-	 update_git_repository
-
 
 
 # releng
 
 [Documents/gerrit/releng/local-charts]
 checkout = git clone 'https://gerrit.wikimedia.org/r/releng/local-charts' 'local-charts'
+update = 
+	 update_git_repository
+
+
+
+# wikibase
+
+[Documents/gerrit/wikibase/termbox]
+checkout = git clone 'https://gerrit.wikimedia.org/r/wikibase/termbox' 'termbox'
 update = 
 	 update_git_repository
 
@@ -280,6 +209,15 @@ update =
 
 
 
+# wikimedia
+
+[Documents/gerrit/wikimedia/portals/deploy]
+checkout = git clone 'https://gerrit.wikimedia.org/r/wikimedia/portals/deploy' 'deploy'
+update = 
+	 update_git_repository
+
+
+
 # operations
 
 [Documents/gerrit/operations/mediawiki-config]
@@ -287,26 +225,9 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/operations/mediawiki-config
 update = 
 	 update_git_repository
 
-[Documents/gerrit/operations/puppet]
-checkout = git clone 'https://gerrit.wikimedia.org/r/operations/puppet.git' 'puppet'
-update = 
-	   git checkout production &&
-	   git branch | grep -vE 'production' | xargs git branch -D &&
-	   git pull origin production
-
 
 
 # github
-
-[Documents/github/addshore/mediawiki-docker-dev]
-checkout = git clone 'https://github.com/addshore/mediawiki-docker-dev.git' 'mediawiki-docker-dev'
-update = 
-	 update_git_repository
-
-[Documents/github/wmde/WikidataApiGem]
-checkout = git clone 'git@github.com:wmde/WikidataApiGem.git' 'WikidataApiGem'
-update = 
-	 update_git_repository
 
 [Documents/github/zeljkofilipin/dotfiles]
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
