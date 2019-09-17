@@ -65,6 +65,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core.git' 'mediaw
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/AbuseFilter]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter.git' 'AbuseFilter'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/AdvancedSearch]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AdvancedSearch.git' 'AdvancedSearch'
 update = 
