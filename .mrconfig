@@ -85,6 +85,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite.g
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ContentTranslation]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ContentTranslation.git' 'ContentTranslation'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Echo]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo.git' 'Echo'
 update = 
