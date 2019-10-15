@@ -1,5 +1,5 @@
-# custom bash prompt user@host:working directory
-PS1="\w$ "
+# custom zsh prompt, working directory
+PS1="%~$ "
 
 # pwstore
 GPG_TTY=$(tty)
