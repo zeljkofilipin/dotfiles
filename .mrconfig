@@ -259,6 +259,11 @@ checkout = git clone 'git@github.com:zeljkofilipin/testival.git' 'testival'
 update = 
 	 update_git_repository
 
+[Documents/github/zeljkofilipin/wikitextify]
+checkout = git clone 'git@github.com:zeljkofilipin/wikitextify.git' 'wikitextify'
+update = 
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/yousician]
 checkout = git clone 'git@github.com:zeljkofilipin/yousician.git' 'yousician'
 update = 
