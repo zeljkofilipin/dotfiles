@@ -228,15 +228,6 @@ update =
 
 
 
-# operations
-
-[Documents/gerrit/operations/mediawiki-config]
-checkout = git clone 'https://gerrit.wikimedia.org/r/operations/mediawiki-config.git' 'mediawiki-config'
-update = 
-	 update_git_repository
-
-
-
 # github
 
 [Documents/github/zeljkofilipin/dotfiles]
