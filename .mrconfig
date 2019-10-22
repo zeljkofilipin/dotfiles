@@ -100,6 +100,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Electr
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/FileImporter]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/FileImporter' 'FileImporter'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/GrowthExperiments]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/GrowthExperiments.git' 'GrowthExperiments'
 update = 
