@@ -245,11 +245,6 @@ checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
 update = 
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/incident-documentation]
-checkout = git clone 'git@github.com:zeljkofilipin/incident-documentation.git' 'incident-documentation'
-update = 
-	 update_git_repository
-
 [Documents/github/zeljkofilipin/testival]
 checkout = git clone 'git@github.com:zeljkofilipin/testival.git' 'testival'
 update = 
