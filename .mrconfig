@@ -26,11 +26,6 @@ update =
 
 # integration
 
-[Documents/gerrit/integration/jenkins-job-builder]
-checkout = git clone 'https://gerrit.wikimedia.org/r/integration/jenkins-job-builder.git' 'jenkins-job-builder'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/integration/jenkins-job-builder/config]
 checkout = git clone 'https://gerrit.wikimedia.org/r/integration/config.git' 'config'
 update = 
