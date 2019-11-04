@@ -235,8 +235,8 @@ checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
 update = 
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/filipin]
-checkout = git clone 'git@github.com:zeljkofilipin/filipin.git' 'filipin'
+[Documents/github/zeljkofilipin/filipin.eu]
+checkout = git clone 'git@github.com:zeljkofilipin/filipin.eu.git' 'filipin.eu'
 update = 
 	 update_git_repository
 
