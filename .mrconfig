@@ -17,9 +17,6 @@ update =
 	 brew update &&
 	 brew upgrade &&
 	 brew cask upgrade &&
-	 gem update --system &&
-	 gem install bundler &&
-	 npm install -g npm@latest &&
 	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
 
 
