@@ -32,6 +32,16 @@ update =
 
 # mediawiki
 
+[Documents/gerrit/mediawiki/core]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core' 'core'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/skins/Vector]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector' 'Vector'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/ruby/api]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/ruby/api.git' 'api'
 update = 
