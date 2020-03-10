@@ -37,16 +37,6 @@ update =
 
 # mediawiki
 
-[Documents/gerrit/mediawiki/core]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core' 'core'
-update = 
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/core/skins/Vector]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector' 'Vector'
-update = 
-	 update_git_repository
-
 [Documents/gerrit/mediawiki/ruby/api]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/ruby/api.git' 'api'
 update = 
@@ -57,6 +47,49 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/selenium.git' 'se
 update = 
 	 update_git_repository
 
+
+
+# mediawiki/core
+
+[Documents/gerrit/mediawiki/core]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core' 'core'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/extensions/CirrusSearch]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/extensions/Elastica]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Elastica' 'Elastica'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/extensions/GrowthExperiments]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/GrowthExperiments' 'GrowthExperiments'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/extensions/MobileFrontend]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend' 'MobileFrontend'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/extensions/PageViewInfo]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/PageViewInfo' 'PageViewInfo'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/skins/MinervaNeue]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue' 'MinervaNeue'
+update = 
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/skins/Vector]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector' 'Vector'
+update = 
+	 update_git_repository
 
 
 # mediawiki/vagrant
