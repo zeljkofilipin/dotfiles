@@ -24,7 +24,7 @@ update =
 # integration
 
 [Documents/gerrit/integration/config]
-checkout = git clone 'https://gerrit.wikimedia.org/r/integration/config.git' 'config'
+checkout = git clone 'https://gerrit.wikimedia.org/r/integration/config' 'config'
 update = 
 	 update_git_repository
 
@@ -38,12 +38,12 @@ update =
 # mediawiki
 
 [Documents/gerrit/mediawiki/ruby/api]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/ruby/api.git' 'api'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/ruby/api' 'api'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/selenium]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/selenium.git' 'selenium'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/selenium' 'selenium'
 update = 
 	 update_git_repository
 
@@ -95,48 +95,48 @@ update =
 # mediawiki/vagrant
 
 [Documents/gerrit/mediawiki/vagrant]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/vagrant.git' 'vagrant'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/vagrant' 'vagrant'
 update = 
 	 update_git_repository &&
 	 git submodule update --init --recursive
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core.git' 'mediawiki'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/core' 'mediawiki'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/AbuseFilter]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter.git' 'AbuseFilter'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter' 'AbuseFilter'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/AdvancedSearch]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AdvancedSearch.git' 'AdvancedSearch'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/AdvancedSearch' 'AdvancedSearch'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/CirrusSearch]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch.git' 'CirrusSearch'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Cite]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite.git' 'Cite'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite' 'Cite'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ContentTranslation]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ContentTranslation.git' 'ContentTranslation'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Echo]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo.git' 'Echo'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo' 'Echo'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ElectronPdfService]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ElectronPdfService.git' 'ElectronPdfService'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ElectronPdfService' 'ElectronPdfService'
 update = 
 	 update_git_repository
 
@@ -146,72 +146,72 @@ update =
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/GrowthExperiments]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/GrowthExperiments.git' 'GrowthExperiments'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/GrowthExperiments' 'GrowthExperiments'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Math]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Math.git' 'Math'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Math' 'Math'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/MobileFrontend]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend.git' 'MobileFrontend'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend' 'MobileFrontend'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/MultimediaViewer]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer.git' 'MultimediaViewer'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer' 'MultimediaViewer'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Newsletter]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Newsletter.git' 'Newsletter'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Newsletter' 'Newsletter'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/ORES]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ORES.git' 'ORES'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ORES' 'ORES'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Popups]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Popups.git' 'Popups'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Popups' 'Popups'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/QuickSurveys]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/QuickSurveys.git' 'QuickSurveys'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/QuickSurveys' 'QuickSurveys'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/RelatedArticles]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/RelatedArticles.git' 'RelatedArticles'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/RelatedArticles' 'RelatedArticles'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/RevisionSlider]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/RevisionSlider.git' 'RevisionSlider'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/RevisionSlider' 'RevisionSlider'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TemplateWizard]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateWizard.git' 'TemplateWizard'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateWizard' 'TemplateWizard'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/TwoColConflict]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/TwoColConflict.git' 'TwoColConflict'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/TwoColConflict' 'TwoColConflict'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/VisualEditor]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor.git' 'VisualEditor'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update = 
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/Wikibase]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase.git' 'Wikibase'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Wikibase' 'Wikibase'
 update = 
 	 update_git_repository
 
@@ -221,7 +221,7 @@ update =
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/WikibaseLexeme]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseLexeme.git' 'WikibaseLexeme'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseLexeme' 'WikibaseLexeme'
 update = 
 	 update_git_repository
 
@@ -231,7 +231,7 @@ update =
 	 update_git_repository
 
 [Documents/gerrit/mediawiki/vagrant/mediawiki/skins/MinervaNeue]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue.git' 'MinervaNeue'
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue' 'MinervaNeue'
 update = 
 	 update_git_repository
 
@@ -276,32 +276,32 @@ update =
 # github
 
 [Documents/github/addshore/mediawiki-docker-dev]
-checkout = git clone 'https://github.com/addshore/mediawiki-docker-dev.git' 'mediawiki-docker-dev'
+checkout = git clone 'https://github.com/addshore/mediawiki-docker-dev' 'mediawiki-docker-dev'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/dotfiles]
-checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
+checkout = git clone 'git@github.com:zeljkofilipin/dotfiles' 'dotfiles'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/filipin.eu]
-checkout = git clone 'git@github.com:zeljkofilipin/filipin.eu.git' 'filipin.eu'
+checkout = git clone 'git@github.com:zeljkofilipin/filipin.eu' 'filipin.eu'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/testival]
-checkout = git clone 'git@github.com:zeljkofilipin/testival.git' 'testival'
+checkout = git clone 'git@github.com:zeljkofilipin/testival' 'testival'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/wikitextify]
-checkout = git clone 'git@github.com:zeljkofilipin/wikitextify.git' 'wikitextify'
+checkout = git clone 'git@github.com:zeljkofilipin/wikitextify' 'wikitextify'
 update = 
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/yousician]
-checkout = git clone 'git@github.com:zeljkofilipin/yousician.git' 'yousician'
+checkout = git clone 'git@github.com:zeljkofilipin/yousician' 'yousician'
 update = 
 	 update_git_repository
 
@@ -310,13 +310,13 @@ update =
 # phabricator
 
 [Documents/phabricator/phab-deployment]
-checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/phab-deployment.git' 'phab-deployment'
+checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/phab-deployment' 'phab-deployment'
 update = 
 	 git checkout wmf/stable &&
 	 git branch | grep -vE 'wmf/stable' | xargs git branch -D &&
 	 git pull origin wmf/stable
 
 [Documents/phabricator/releng-secrets]
-checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/releng-secrets.git' 'releng-secrets'
+checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/releng-secrets' 'releng-secrets'
 update = 
 	 update_git_repository
