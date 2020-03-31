@@ -81,6 +81,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/PageVi
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/TwoColConflict]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/TwoColConflict' 'TwoColConflict'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/skins/MinervaNeue]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue' 'MinervaNeue'
 update = 
