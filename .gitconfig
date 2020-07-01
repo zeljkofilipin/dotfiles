@@ -13,6 +13,8 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[protocol]
+	version = 2
 [gitreview]
 	username = Zfilipin
 	remote = origin
