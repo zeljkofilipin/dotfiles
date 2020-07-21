@@ -317,6 +317,17 @@ update =
 
 
 
+# phabricator
+
+[Documents/gerrit/phabricator/deployment]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/phabricator/deployment' 'deployment'
+update =
+	 git checkout wmf/stable &&
+	 git branch | grep -vE 'wmf/stable' | xargs git branch -D &&
+	 git pull origin wmf/stable
+
+
+
 # releng
 
 [Documents/gerrit/releng/local-charts]
@@ -388,13 +399,6 @@ update =
 
 
 # phabricator
-
-[Documents/phabricator/phab-deployment]
-checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/phab-deployment' 'phab-deployment'
-update = 
-	 git checkout wmf/stable &&
-	 git branch | grep -vE 'wmf/stable' | xargs git branch -D &&
-	 git pull origin wmf/stable
 
 [Documents/phabricator/releng-secrets]
 checkout = git clone 'ssh://vcs@git-ssh.wikimedia.org/source/releng-secrets' 'releng-secrets'
