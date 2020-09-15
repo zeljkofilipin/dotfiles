@@ -1,0 +1,7 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false
+}
