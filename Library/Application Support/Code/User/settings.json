@@ -7,5 +7,5 @@
     "files.autoSave": "onWindowChange",
     "files.trimTrailingWhitespace": true,
     "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "newUntitledFile"
 }
