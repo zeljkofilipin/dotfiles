@@ -66,6 +66,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Advanc
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/CentralNotice]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CentralNotice' 'CentralNotice'
+update = 
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/CirrusSearch]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update =
