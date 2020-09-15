@@ -1,7 +1,11 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "all",
+    "editor.scrollBeyondLastLine": false,
+    "editor.tabSize": 2,
+    "files.autoSave": "onWindowChange",
     "files.trimTrailingWhitespace": true,
-    "diffEditor.ignoreTrimWhitespace": false
+    "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
+    "workbench.startupEditor": "newUntitledFile",
 }
