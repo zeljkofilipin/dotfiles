@@ -17,6 +17,9 @@ export PATH="/usr/local/opt/node@10/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/node@10/lib"
 export CPPFLAGS="-I/usr/local/opt/node@10/include"
 
-## ruby@2.5
-export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$PATH"
-export PATH="/usr/local/opt/ruby@2.5/bin:$PATH"
+## ruby
+export PATH="/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
