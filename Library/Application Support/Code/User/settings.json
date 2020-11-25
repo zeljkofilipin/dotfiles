@@ -4,7 +4,7 @@
     "editor.renderWhitespace": "all",
     "editor.scrollBeyondLastLine": false,
     "editor.tabSize": 2,
-    "files.autoSave": "onWindowChange",
+    "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
     "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
     "workbench.startupEditor": "newUntitledFile"
