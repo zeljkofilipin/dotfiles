@@ -275,6 +275,11 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Popups
 update = 
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/ProofreadPage]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/ProofreadPage' 'ProofreadPage'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/vagrant/mediawiki/extensions/RelatedArticles]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/extensions/RelatedArticles' 'RelatedArticles'
 update = 
