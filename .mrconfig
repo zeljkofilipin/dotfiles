@@ -381,6 +381,11 @@ checkout = git clone 'https://github.com/addshore/mediawiki-docker-dev' 'mediawi
 update =
 	 update_git_repository
 
+[Documents/github/wikimedia/wikipedia-kaios]
+checkout = git clone 'git@github.com:wikimedia/wikipedia-kaios.git' 'wikipedia-kaios'
+update =
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/dotfiles]
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles' 'dotfiles'
 update =
