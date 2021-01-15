@@ -23,3 +23,7 @@ export PATH="/usr/local/opt/ruby@2.7/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/ruby@2.7/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby@2.7/include"
 export PKG_CONFIG_PATH="/usr/local/opt/ruby@2.7/lib/pkgconfig"
+
+## appium
+export ANDROID_HOME=/Users/z/Library/Android/sdk
+export PATH=$ANDROID_HOME:$PATH
