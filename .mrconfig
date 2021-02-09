@@ -219,32 +219,3 @@ checkout = git clone 'https://github.com/addshore/mediawiki-docker-dev' 'mediawi
 update =
 	 update_git_repository
 
-[Documents/github/wikimedia/wikipedia-kaios]
-checkout = git clone 'git@github.com:wikimedia/wikipedia-kaios.git' 'wikipedia-kaios'
-update =
-	 update_git_repository
-
-[Documents/github/zeljkofilipin/dotfiles]
-checkout = git clone 'git@github.com:zeljkofilipin/dotfiles' 'dotfiles'
-update =
-	 update_git_repository
-
-[Documents/github/zeljkofilipin/filipin.eu]
-checkout = git clone 'git@github.com:zeljkofilipin/filipin.eu' 'filipin.eu'
-update =
-	 update_git_repository
-
-[Documents/github/zeljkofilipin/testival]
-checkout = git clone 'git@github.com:zeljkofilipin/testival' 'testival'
-update =
-	 update_git_repository
-
-[Documents/github/zeljkofilipin/wikitextify]
-checkout = git clone 'git@github.com:zeljkofilipin/wikitextify' 'wikitextify'
-update =
-	 update_git_repository
-
-[Documents/github/zeljkofilipin/yousician]
-checkout = git clone 'git@github.com:zeljkofilipin/yousician' 'yousician'
-update =
-	 update_git_repository
