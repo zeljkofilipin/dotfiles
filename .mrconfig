@@ -177,7 +177,7 @@ update =
 # phabricator
 
 [Documents/gerrit/phabricator/deployment]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/phabricator/deployment' 'deployment'
+checkout = git clone 'https://gerrit.wikimedia.org/r/phabricator/deployment' 'deployment'
 update =
 	 git checkout wmf/stable &&
 	 git branch | grep -vE 'wmf/stable' | xargs git branch -D &&
