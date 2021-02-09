@@ -28,25 +28,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/integration/config' 'config
 update =
 	 update_git_repository
 
-[Documents/gerrit/integration/quibble]
-checkout = git clone 'https://gerrit.wikimedia.org/r/integration/quibble' 'quibble'
-update =
-	 update_git_repository
-
-
-
-# mediawiki
-
-[Documents/gerrit/mediawiki/ruby/api]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/ruby/api' 'api'
-update =
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/selenium]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/selenium' 'selenium'
-update =
-	 update_git_repository
-
 
 
 # mediawiki/core
@@ -201,15 +182,6 @@ update =
 	 git checkout wmf/stable &&
 	 git branch | grep -vE 'wmf/stable' | xargs git branch -D &&
 	 git pull origin wmf/stable
-
-
-
-# releng
-
-[Documents/gerrit/releng/local-charts]
-checkout = git clone 'https://gerrit.wikimedia.org/r/releng/local-charts' 'local-charts'
-update =
-	 update_git_repository
 
 
 
