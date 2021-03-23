@@ -62,6 +62,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/CodeMirror]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CodeMirror' 'CodeMirror'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/ContentTranslation]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
 update =
