@@ -82,6 +82,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/examples]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/examples' 'examples'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/FileImporter]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/FileImporter' 'FileImporter'
 update =
