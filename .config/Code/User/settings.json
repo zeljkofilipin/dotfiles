@@ -1,0 +1,11 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "all",
+    "editor.scrollBeyondLastLine": false,
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "vscode-neovim.neovimExecutablePaths.darwin": "/usr/bin/nvim",
+    "workbench.startupEditor": "newUntitledFile"
+}
