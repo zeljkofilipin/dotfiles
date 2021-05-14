@@ -175,7 +175,7 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/phabricator/deployment' 'deployment'
 update =
 	 git checkout wmf/stable &&
-	 git branch | grep -vE 'wmf/stable' | xargs git branch -D &&
+	 git branch | grep -vE 'wmf/stable' | xargs --no-run-if-empty git branch -D &&
 	 git pull origin wmf/stable
 
 
