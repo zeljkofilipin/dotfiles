@@ -115,3 +115,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# selenium
+export CHROME_PATH=/snap/bin/chromium
+
