@@ -157,6 +157,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/WikiLambda]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikiLambda' 'WikiLambda'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/skins/MinervaNeue]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/skins/MinervaNeue' 'MinervaNeue'
 update =
