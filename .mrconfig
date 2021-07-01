@@ -92,6 +92,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/GlobalWatchlist]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GlobalWatchlist' 'GlobalWatchlist'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/GrowthExperiments]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GrowthExperiments' 'GrowthExperiments'
 update =
