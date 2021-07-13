@@ -474,6 +474,11 @@ checkout = git clone 'git@github.com:zeljkofilipin/wikitextify' 'wikitextify'
 update =
 	 update_git_repository
 
+[Documents/github/zeljkofilipin/wim]
+checkout = git clone 'git@github.com:zeljkofilipin/wim.git' 'wim'
+update =
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/you-dont-know-js-up-and-going]
 checkout = git clone 'https://github.com/zeljkofilipin/you-dont-know-js-up-and-going.git' 'you-dont-know-js-up-and-going'
 update =
