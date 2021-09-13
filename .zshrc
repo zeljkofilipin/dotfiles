@@ -1,10 +1,6 @@
 # custom zsh prompt, working directory
 PS1="%~$ "
 
-# pwstore
-GPG_TTY=$(tty)
-export GPG_TTY
-
 # Fix `locale.Error: unsupported locale setting` error message
 # https://phabricator.wikimedia.org/P4538
 export LANG=en_US.UTF-8
@@ -23,7 +19,3 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
-
-## appium
-export ANDROID_HOME=/Users/z/Library/Android/sdk
-export PATH=$ANDROID_HOME:$PATH
