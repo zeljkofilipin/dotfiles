@@ -6,6 +6,6 @@
     "editor.tabSize": 2,
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
-    "vscode-neovim.neovimExecutablePaths.linux": "/home/z/nvim.appimage",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "workbench.startupEditor": "newUntitledFile"
 }
