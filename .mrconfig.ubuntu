@@ -4,7 +4,6 @@
 lib =
 	 update_git_repository () {
 	   git checkout master &&
-	   git branch | grep -vE 'master' | xargs git branch -D &&
 	   git pull origin master
 	 }
 
