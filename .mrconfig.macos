@@ -219,11 +219,6 @@ update =
 
 # github
 
-[Documents/github/addshore/mediawiki-docker-dev]
-checkout = git clone 'https://github.com/addshore/mediawiki-docker-dev' 'mediawiki-docker-dev'
-update =
-	 update_git_repository
-
 [Documents/github/wmde/wdio-wikibase]
 checkout = git clone 'git@github.com:wmde/wdio-wikibase.git' 'wdio-wikibase'
 update =
