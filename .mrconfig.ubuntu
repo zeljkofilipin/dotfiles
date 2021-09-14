@@ -10,7 +10,7 @@ lib =
 
 
 
-# update homebrew and tools installed via homebrew
+# check if .mrconfig is up to date
 
 [/Users/z]
 update =
