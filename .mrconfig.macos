@@ -17,7 +17,7 @@ lib =
 update =
 	 brew update &&
 	 brew upgrade &&
-	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
+	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig.macos
 
 
 

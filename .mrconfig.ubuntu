@@ -13,7 +13,7 @@ lib =
 
 [/Users/z]
 update =
-	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
+	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig.ubuntu
 
 
 
