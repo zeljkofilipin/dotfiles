@@ -240,7 +240,7 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/eloquent-javascript]
-checkout = git clone 'https://github.com/zeljkofilipin/eloquent-javascript.git' 'eloquent-javascript'
+checkout = git clone 'git@github.com:zeljkofilipin/eloquent-javascript.git' 'eloquent-javascript'
 update =
 	 update_git_repository
 
@@ -250,32 +250,32 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/firefox-marionette-geckodriver-js]
-checkout = git clone 'https://github.com/zeljkofilipin/firefox-marionette-geckodriver-js.git' 'firefox-marionette-geckodriver-js'
+checkout = git clone 'git@github.com:zeljkofilipin/firefox-marionette-geckodriver-js.git' 'firefox-marionette-geckodriver-js'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/firefox-marionette-geckodriver-selenium-ruby]
-checkout = git clone 'https://github.com/zeljkofilipin/firefox-marionette-geckodriver-selenium-ruby.git' 'firefox-marionette-geckodriver-selenium-ruby'
+checkout = git clone 'git@github.com:zeljkofilipin/firefox-marionette-geckodriver-selenium-ruby.git' 'firefox-marionette-geckodriver-selenium-ruby'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/firefox-profile-firefoxdriver-selenium-ruby]
-checkout = git clone 'https://github.com/zeljkofilipin/firefox-profile-firefoxdriver-selenium-ruby.git' 'firefox-profile-firefoxdriver-selenium-ruby'
+checkout = git clone 'git@github.com:zeljkofilipin/firefox-profile-firefoxdriver-selenium-ruby.git' 'firefox-profile-firefoxdriver-selenium-ruby'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/firefox-profile-marionette-geckodriver-selenium-ruby]
-checkout = git clone 'https://github.com/zeljkofilipin/firefox-profile-marionette-geckodriver-selenium-ruby.git' 'firefox-profile-marionette-geckodriver-selenium-ruby'
+checkout = git clone 'git@github.com:zeljkofilipin/firefox-profile-marionette-geckodriver-selenium-ruby.git' 'firefox-profile-marionette-geckodriver-selenium-ruby'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/game-of-life-r]
-checkout = git clone 'https://github.com/zeljkofilipin/game-of-life-r.git' 'game-of-life-r'
+checkout = git clone 'git@github.com:zeljkofilipin/game-of-life-r.git' 'game-of-life-r'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/gerrit]
-checkout = git clone 'https://github.com/zeljkofilipin/gerrit.git' 'gerrit'
+checkout = git clone 'git@github.com:zeljkofilipin/gerrit.git' 'gerrit'
 update =
 	 update_git_repository
 
@@ -285,12 +285,12 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/how-to-code]
-checkout = git clone 'https://github.com/zeljkofilipin/how-to-code.git' 'how-to-code'
+checkout = git clone 'git@github.com:zeljkofilipin/how-to-code.git' 'how-to-code'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/how-to-npm]
-checkout = git clone 'https://github.com/zeljkofilipin/how-to-npm.git' 'how-to-npm'
+checkout = git clone 'git@github.com:zeljkofilipin/how-to-npm.git' 'how-to-npm'
 update =
 	 update_git_repository
 
@@ -300,12 +300,12 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/javascript-the-good-parts]
-checkout = git clone 'https://github.com/zeljkofilipin/javascript-the-good-parts.git' 'javascript-the-good-parts'
+checkout = git clone 'git@github.com:zeljkofilipin/javascript-the-good-parts.git' 'javascript-the-good-parts'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/javascripting]
-checkout = git clone 'https://github.com/zeljkofilipin/javascripting.git' 'javascripting'
+checkout = git clone 'git@github.com:zeljkofilipin/javascripting.git' 'javascripting'
 update =
 	 update_git_repository
 
@@ -320,47 +320,47 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/language-screenshots]
-checkout = git clone 'https://github.com/zeljkofilipin/language-screenshots.git' 'language-screenshots'
+checkout = git clone 'git@github.com:zeljkofilipin/language-screenshots.git' 'language-screenshots'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/learnyounode]
-checkout = git clone 'https://github.com/zeljkofilipin/learnyounode.git' 'learnyounode'
+checkout = git clone 'git@github.com:zeljkofilipin/learnyounode.git' 'learnyounode'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki.git' 'mediawiki'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki.git' 'mediawiki'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-nightwatch]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-nightwatch.git' 'mediawiki-nightwatch'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-nightwatch.git' 'mediawiki-nightwatch'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-selenium-cucumber]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-selenium-cucumber.git' 'mediawiki-selenium-cucumber'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-selenium-cucumber.git' 'mediawiki-selenium-cucumber'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-selenium-nodejs]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-selenium-rb]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-selenium-rb.git' 'mediawiki-selenium-rb'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-selenium-rb.git' 'mediawiki-selenium-rb'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-webdriverio]
-checkout = git clone 'https://github.com/zeljkofilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/mediawiki-webdriverjs]
-checkout = git clone 'https://github.com/zeljkofilipin/selenium-mediawiki-mocha.git' 'mediawiki-webdriverjs'
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-mocha.git' 'mediawiki-webdriverjs'
 update =
 	 update_git_repository
 
@@ -370,22 +370,22 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/olympics]
-checkout = git clone 'https://github.com/zeljkofilipin/olympics.git' 'olympics'
+checkout = git clone 'git@github.com:zeljkofilipin/olympics.git' 'olympics'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/pacman]
-checkout = git clone 'https://github.com/zeljkofilipin/pacman.git' 'pacman'
+checkout = git clone 'git@github.com:zeljkofilipin/pacman.git' 'pacman'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/page-object-cucumber]
-checkout = git clone 'https://github.com/zeljkofilipin/page-object-cucumber.git' 'page-object-cucumber'
+checkout = git clone 'git@github.com:zeljkofilipin/page-object-cucumber.git' 'page-object-cucumber'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/page-object-minimal]
-checkout = git clone 'https://github.com/zeljkofilipin/page-object-minimal.git' 'page-object-minimal'
+checkout = git clone 'git@github.com:zeljkofilipin/page-object-minimal.git' 'page-object-minimal'
 update =
 	 update_git_repository
 
@@ -395,37 +395,37 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/screenshot-js]
-checkout = git clone 'https://github.com/zeljkofilipin/screenshot-js.git' 'screenshot-js'
+checkout = git clone 'git@github.com:zeljkofilipin/screenshot-js.git' 'screenshot-js'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/screenshot-rb]
-checkout = git clone 'https://github.com/zeljkofilipin/screenshot-rb.git' 'screenshot-rb'
+checkout = git clone 'git@github.com:zeljkofilipin/screenshot-rb.git' 'screenshot-rb'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/selenium-logs]
-checkout = git clone 'https://github.com/zeljkofilipin/selenium-logs.git' 'selenium-logs'
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-logs.git' 'selenium-logs'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/selenium-scratch]
-checkout = git clone 'https://github.com/zeljkofilipin/selenium-scratch.git' 'selenium-scratch'
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-scratch.git' 'selenium-scratch'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/selenium-vagrant]
-checkout = git clone 'https://github.com/zeljkofilipin/selenium-vagrant.git' 'selenium-vagrant'
+checkout = git clone 'git@github.com:zeljkofilipin/selenium-vagrant.git' 'selenium-vagrant'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/set-game-js]
-checkout = git clone 'https://github.com/zeljkofilipin/set-game-js.git' 'set-game-js'
+checkout = git clone 'git@github.com:zeljkofilipin/set-game-js.git' 'set-game-js'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/set-game-rb]
-checkout = git clone 'https://github.com/zeljkofilipin/set-game-rb.git' 'set-game-rb'
+checkout = git clone 'git@github.com:zeljkofilipin/set-game-rb.git' 'set-game-rb'
 update =
 	 update_git_repository
 
@@ -435,7 +435,7 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/testingpodcast]
-checkout = git clone 'https://github.com/zeljkofilipin/testingpodcast.git' 'testingpodcast'
+checkout = git clone 'git@github.com:zeljkofilipin/testingpodcast.git' 'testingpodcast'
 update =
 	 update_git_repository
 
@@ -445,22 +445,22 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/ukulele-to-wikitext]
-checkout = git clone 'https://github.com/zeljkofilipin/ukulele-to-wikitext.git' 'ukulele-to-wikitext'
+checkout = git clone 'git@github.com:zeljkofilipin/ukulele-to-wikitext.git' 'ukulele-to-wikitext'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/watir-nokogiri]
-checkout = git clone 'https://github.com/zeljkofilipin/watir-nokogiri.git' 'watir-nokogiri'
+checkout = git clone 'git@github.com:zeljkofilipin/watir-nokogiri.git' 'watir-nokogiri'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/watir-parallel]
-checkout = git clone 'https://github.com/zeljkofilipin/watir-parallel.git' 'watir-parallel'
+checkout = git clone 'git@github.com:zeljkofilipin/watir-parallel.git' 'watir-parallel'
 update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/webstrategija]
-checkout = git clone 'https://github.com/zeljkofilipin/webstrategija.git' 'webstrategija'
+checkout = git clone 'git@github.com:zeljkofilipin/webstrategija.git' 'webstrategija'
 update =
 	 update_git_repository
 
@@ -475,7 +475,7 @@ update =
 	 update_git_repository
 
 [Documents/github/zeljkofilipin/you-dont-know-js-up-and-going]
-checkout = git clone 'https://github.com/zeljkofilipin/you-dont-know-js-up-and-going.git' 'you-dont-know-js-up-and-going'
+checkout = git clone 'git@github.com:zeljkofilipin/you-dont-know-js-up-and-going.git' 'you-dont-know-js-up-and-going'
 update =
 	 update_git_repository
 
