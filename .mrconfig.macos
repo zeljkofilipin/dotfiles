@@ -147,6 +147,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/UniversalLanguageSelector]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UniversalLanguageSelector' 'UniversalLanguageSelector'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/Wikibase]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Wikibase' 'Wikibase'
 update =
