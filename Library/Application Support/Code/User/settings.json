@@ -1,5 +1,6 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "all",
     "editor.scrollBeyondLastLine": false,
