@@ -491,3 +491,8 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
 update =
 	 update_git_repository
+
+[git/gerrit/mediawiki/core/skins/Vector]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/skins/Vector' 'Vector'
+update =
+	 update_git_repository
