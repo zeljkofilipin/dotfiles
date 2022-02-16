@@ -147,8 +147,8 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/core/extensions/UniversalLanguageSelector]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/UniversalLanguageSelector' 'UniversalLanguageSelector'
+[Documents/gerrit/mediawiki/core/extensions/VisualEditor]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update =
 	 update_git_repository
 
@@ -162,18 +162,8 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
-[Documents/gerrit/mediawiki/core/extensions/WikibaseMediaInfo]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikibaseMediaInfo' 'WikibaseMediaInfo'
-update =
-	 update_git_repository
-
 [Documents/gerrit/mediawiki/core/extensions/WikiLambda]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikiLambda' 'WikiLambda'
-update =
-	 update_git_repository
-
-[Documents/gerrit/mediawiki/core/extensions/VisualEditor]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update =
 	 update_git_repository
 
@@ -186,17 +176,6 @@ update =
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/skins/Vector' 'Vector'
 update =
 	 update_git_repository
-
-
-
-# phabricator
-
-[Documents/gerrit/phabricator/deployment]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/phabricator/deployment' 'deployment'
-update =
-	 git checkout wmf/stable &&
-	 git for-each-ref --format '%(refname:short)' refs/heads | grep -v "wmf/stable" | xargs git branch -D
-	 git pull origin wmf/stable
 
 
 
@@ -501,5 +480,14 @@ update =
 
 [Documents/github/zeljkofilipin/zeljkofilipin]
 checkout = git clone 'git@github.com:zeljkofilipin/zeljkofilipin.git' 'zeljkofilipin'
+update =
+	 update_git_repository
+
+
+
+# cli
+
+[git/gerrit/mediawiki/core]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
 update =
 	 update_git_repository
