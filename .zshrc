@@ -8,10 +8,10 @@ export LC_ALL=en_US.UTF-8
 
 # Homebrew
 
-## node@12
-export PATH="/usr/local/opt/node@12/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/node@12/lib"
-export CPPFLAGS="-I/usr/local/opt/node@12/include"
+## node@14
+export PATH="/usr/local/opt/node@14/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/node@14/lib"
+export CPPFLAGS="-I/usr/local/opt/node@14/include"
 
 ## ruby
 export PATH="/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
