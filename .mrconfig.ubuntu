@@ -43,6 +43,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/CampaignEvents]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CampaignEvents' 'CampaignEvents'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/CentralNotice]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralNotice' 'CentralNotice'
 update =
