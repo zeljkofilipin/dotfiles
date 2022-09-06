@@ -1,11 +1,6 @@
 # custom zsh prompt, working directory
 PS1="%~$ "
 
-# Fix `locale.Error: unsupported locale setting` error message
-# https://phabricator.wikimedia.org/P4538
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-
 # Homebrew
 
 ## node@14
