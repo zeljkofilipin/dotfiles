@@ -14,8 +14,7 @@ export LDFLAGS="-L/opt/homebrew/opt/node@14/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/node@14/include"
 
 ## ruby
-export PATH="/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/ruby/lib"
-export CPPFLAGS="-I/usr/local/opt/ruby/include"
-export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+export PATH="/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
