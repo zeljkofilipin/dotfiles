@@ -107,6 +107,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/IPInfo]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/IPInfo' 'IPInfo'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/Math]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Math' 'Math'
 update =
