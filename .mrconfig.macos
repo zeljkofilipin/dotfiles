@@ -233,6 +233,11 @@ checkout = git clone 'git@github.com:zeljkofilipin/composetest.git' 'composetest
 update =
 	 update_git_repository
 
+[Documents/github/zeljkofilipin/developers-maintainers]
+checkout = git clone 'git@github.com:zeljkofilipin/developers-maintainers.git' 'developers-maintainers'
+update =
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/docker-get-started]
 checkout = git clone 'git@github.com:zeljkofilipin/docker-get-started.git' 'docker-get-started'
 update =
