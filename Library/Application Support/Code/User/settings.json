@@ -7,6 +7,6 @@
     "editor.tabSize": 2,
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
-    "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+    "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
     "workbench.startupEditor": "newUntitledFile"
 }
