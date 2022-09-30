@@ -1,6 +1,9 @@
 # custom zsh prompt, working directory
 PS1="%~$ "
 
+# Fresh
+export PATH=$PATH:~/.local/bin
+
 # Homebrew
 
 ## node@14
