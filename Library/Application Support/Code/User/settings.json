@@ -10,6 +10,7 @@
     "editor.tabSize": 2,
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
     "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
     "workbench.startupEditor": "newUntitledFile"
 }
