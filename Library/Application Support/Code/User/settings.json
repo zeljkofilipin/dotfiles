@@ -1,6 +1,9 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "all",
     "editor.scrollBeyondLastLine": false,
