@@ -4,12 +4,12 @@ PS1="%~$ "
 # Fresh
 export PATH=$PATH:~/.local/bin
 
-# Homebrew
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-## node@14
-export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
-export LDFLAGS="-L/opt/homebrew/opt/node@14/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/node@14/include"
+# Homebrew
 
 ## ruby
 export PATH="/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"
