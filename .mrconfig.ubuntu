@@ -501,6 +501,15 @@ update =
 
 
 
+# gitlab
+
+[Documents/gitlab/zfilipin/developers-maintainers]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/developers-maintainers.git' 'developers-maintainers'
+update =
+	 update_git_repository
+
+
+
 # cli
 
 [git/gerrit/mediawiki/core]
