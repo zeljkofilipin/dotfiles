@@ -57,6 +57,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/CheckUser]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CheckUser' 'CheckUser'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/CirrusSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update =
@@ -124,6 +129,11 @@ update =
 
 [Documents/gerrit/mediawiki/core/extensions/Newsletter]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Newsletter' 'Newsletter'
+update =
+	 update_git_repository
+
+[Documents/gerrit/mediawiki/core/extensions/PageTriage]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PageTriage' 'PageTriage'
 update =
 	 update_git_repository
 
