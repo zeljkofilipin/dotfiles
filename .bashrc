@@ -116,6 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# fresh
+export PATH=$PATH:~/.local/bin
+
 # selenium
 export CHROME_PATH=/snap/bin/chromium
-
