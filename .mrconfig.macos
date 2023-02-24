@@ -77,6 +77,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git_repository
 
+[Documents/gerrit/mediawiki/core/extensions/ContactPage]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContactPage' 'ContactPage'
+update =
+	 update_git_repository
+
 [Documents/gerrit/mediawiki/core/extensions/Echo]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Echo' 'Echo'
 update =
