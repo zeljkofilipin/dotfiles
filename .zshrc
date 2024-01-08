@@ -6,11 +6,6 @@ export PATH=$PATH:~/.local/bin
 
 # Homebrew
 
-## ruby
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-
 ## java
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
@@ -19,3 +14,8 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/node@16/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/node@16/include"
+
+## ruby
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
