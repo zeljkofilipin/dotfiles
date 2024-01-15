@@ -1,12 +1,16 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "all",
     "editor.scrollBeyondLastLine": false,
     "editor.tabSize": 2,
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "workbench.startupEditor": "newUntitledFile"
 }
