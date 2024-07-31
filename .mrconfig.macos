@@ -483,6 +483,11 @@ checkout = git clone 'git@github.com:zeljkofilipin/watir-parallel.git' 'watir-pa
 update =
 	 update_git_repository
 
+[Documents/github/zeljkofilipin/webdriverio-firefox]
+checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-firefox.git' 'webdriverio-firefox'
+update =
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/webstrategija]
 checkout = git clone 'git@github.com:zeljkofilipin/webstrategija.git' 'webstrategija'
 update =
