@@ -299,8 +299,8 @@ checkout = git clone 'git@github.com:zeljkofilipin/gerrit.git' 'gerrit'
 update =
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/GrowthExperiments]
-checkout = git clone 'git@github.com:zeljkofilipin/GrowthExperiments.git' 'GrowthExperiments'
+[Documents/github/zeljkofilipin/growth-experiments]
+checkout = git clone 'git@github.com:zeljkofilipin/growth-experiments.git' 'growth-experiments'
 update =
 	 update_git_repository
 
@@ -349,8 +349,8 @@ checkout = git clone 'git@github.com:zeljkofilipin/learnyounode.git' 'learnyouno
 update =
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/mediawiki]
-checkout = git clone 'git@github.com:zeljkofilipin/mediawiki.git' 'mediawiki'
+[Documents/github/zeljkofilipin/mediawiki-settings]
+checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-settings.git' 'mediawiki-settings'
 update =
 	 update_git_repository
 
@@ -406,6 +406,16 @@ update =
 
 [Documents/github/zeljkofilipin/page-object-minimal]
 checkout = git clone 'git@github.com:zeljkofilipin/page-object-minimal.git' 'page-object-minimal'
+update =
+	 update_git_repository
+
+[Documents/github/zeljkofilipin/rust-workshop]
+checkout = git clone 'git@github.com:zeljkofilipin/rust-workshop.git' 'rust-workshop'
+update =
+	 update_git_repository
+
+[Documents/github/zeljkofilipin/search]
+checkout = git clone 'git@github.com:zeljkofilipin/search.git' 'search'
 update =
 	 update_git_repository
 
@@ -479,8 +489,33 @@ checkout = git clone 'git@github.com:zeljkofilipin/watir-parallel.git' 'watir-pa
 update =
 	 update_git_repository
 
+[Documents/github/zeljkofilipin/webdriverio-async]
+checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-async.git' 'webdriverio-async'
+update =
+	 update_git_repository
+
 [Documents/github/zeljkofilipin/webdriverio-firefox]
 checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-firefox.git' 'webdriverio-firefox'
+update =
+	 update_git_repository
+
+[Documents/github/zeljkofilipin/webdriverio-realworld]
+checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-realworld.git' 'webdriverio-realworld'
+update =
+	 update_git_repository
+
+[Documents/github/zeljkofilipin/webdriverio-simple]
+checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-simple.git' 'webdriverio-simple'
+update =
+	 update_git_repository
+
+[Documents/github/zeljkofilipin/webdriverio-standalone]
+checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-standalone.git' 'webdriverio-standalone'
+update =
+	 update_git_repository
+
+[Documents/github/zeljkofilipin/webdriverio-testrunner]
+checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-testrunner.git' 'webdriverio-testrunner'
 update =
 	 update_git_repository
 
