@@ -508,11 +508,6 @@ checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-realworld.git' 'w
 update =
 	 update_git_repository
 
-[Documents/github/zeljkofilipin/webdriverio-simple]
-checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-simple.git' 'webdriverio-simple'
-update =
-	 update_git_repository
-
 [Documents/github/zeljkofilipin/webdriverio-standalone]
 checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-standalone.git' 'webdriverio-standalone'
 update =
