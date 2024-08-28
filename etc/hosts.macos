@@ -7,3 +7,6 @@
 127.0.0.1	localhost
 255.255.255.255	broadcasthost
 ::1             localhost
+
+# Block Gmail
+127.0.0.1	mail.google.com
