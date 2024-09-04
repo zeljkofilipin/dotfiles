@@ -563,8 +563,18 @@ checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/gerrit.git' 'gerrit'
 update =
 	 update_git_repository
 
+[Documents/gitlab/zfilipin/growth-experiments]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/growth-experiments.git' 'growth-experiments'
+update =
+	 update_git_repository
+
 [Documents/gitlab/zfilipin/incident-documentation]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/incident-documentation.git' 'incident-documentation'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/jenkins-stats]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/jenkins-stats.git' 'jenkins-stats'
 update =
 	 update_git_repository
 
@@ -610,6 +620,11 @@ update =
 
 [Documents/gitlab/zfilipin/ukulele-to-wikitext]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/ukulele-to-wikitext.git' 'ukulele-to-wikitext'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/wikitextify]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/wikitextify.git' 'wikitextify'
 update =
 	 update_git_repository
 
