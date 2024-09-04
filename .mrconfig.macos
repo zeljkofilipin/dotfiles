@@ -562,6 +562,61 @@ checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/developers-maintainers.g
 update =
 	 update_git_repository
 
+[Documents/gitlab/zfilipin/gerrit]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/gerrit.git' 'gerrit'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/incident-documentation]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/incident-documentation.git' 'incident-documentation'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/language-screenshots]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/language-screenshots.git' 'language-screenshots'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/mediawiki-nightwatch]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-nightwatch.git' 'mediawiki-nightwatch'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/mediawiki-selenium-cucumber]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-selenium-cucumber.git' 'mediawiki-selenium-cucumber'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/mediawiki-selenium-nodejs]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/mediawiki-selenium-rb]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-selenium-rb.git' 'mediawiki-selenium-rb'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/mediawiki-settings]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-settings.git' 'mediawiki-settings'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/mediawiki-webdriverio]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/mediawiki-webdriverjs]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-webdriverjs.git' 'mediawiki-webdriverjs'
+update =
+	 update_git_repository
+
+[Documents/gitlab/zfilipin/ukulele-to-wikitext]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/ukulele-to-wikitext.git' 'ukulele-to-wikitext'
+update =
+	 update_git_repository
+
 
 
 # cli
