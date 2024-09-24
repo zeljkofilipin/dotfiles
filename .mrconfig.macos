@@ -3,9 +3,7 @@
 [DEFAULT]
 lib =
 	 update_git_repository () {
-	   git checkout master &&
-		 git for-each-ref --format '%(refname:short)' refs/heads | grep -v "master\|main" | xargs git branch -D
-	   git pull origin master
+		 ~/Documents/github/zeljkofilipin/dotfiles/update_git_repository.sh
 	 }
 
 

@@ -3,8 +3,7 @@
 [DEFAULT]
 lib =
 	 update_git_repository () {
-	   git checkout master &&
-	   git pull origin master
+		 ~/Documents/github/zeljkofilipin/dotfiles/update_git_repository.sh
 	 }
 
 
