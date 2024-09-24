@@ -562,6 +562,11 @@ update =
 
 # gitlab
 
+[Documents/gitlab/mhurd/mediawiki-quickstart]
+checkout = git clone 'git@gitlab.wikimedia.org:mhurd/mediawiki-quickstart.git' 'mediawiki-quickstart'
+update =
+	 update_git_repository
+
 [Documents/gitlab/zfilipin/developers-maintainers]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/developers-maintainers.git' 'developers-maintainers'
 update =
