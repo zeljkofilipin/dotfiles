@@ -8,10 +8,14 @@ lib =
 
 
 
+# update apt and snap packages
 # check if .mrconfig is up to date
 
 [/Users/z]
 update =
+	 sudo apt update &&
+	 sudo apt upgrade &&
+	 sudo snap refresh &&
 	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig.ubuntu
 
 
