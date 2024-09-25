@@ -2,7 +2,7 @@
 
 [DEFAULT]
 lib =
-	 update_git_repository () {
+	 update_git () {
 		 ~/Documents/github/zeljkofilipin/dotfiles/update_git.sh
 	 }
 
@@ -24,7 +24,7 @@ update =
 [Documents/gerrit/integration/config]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/config' 'config'
 update =
-	 update_git_repository
+	 update_git
 
 
 
@@ -33,182 +33,182 @@ update =
 [Documents/gerrit/mediawiki/core]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/AbuseFilter]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/AbuseFilter' 'AbuseFilter'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/AdvancedSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/AdvancedSearch' 'AdvancedSearch'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/CampaignEvents]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CampaignEvents' 'CampaignEvents'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/CentralNotice]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralNotice' 'CentralNotice'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/CheckUser]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CheckUser' 'CheckUser'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/CirrusSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/Cite]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Cite' 'Cite'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/CodeMirror]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CodeMirror' 'CodeMirror'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/ContactPage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContactPage' 'ContactPage'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/ContentTranslation]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/Echo]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Echo' 'Echo'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/ElectronPdfService]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ElectronPdfService' 'ElectronPdfService'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/EntitySchema]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/EntitySchema' 'EntitySchema'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/examples]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/examples' 'examples'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/FileImporter]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/FileImporter' 'FileImporter'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/GlobalWatchlist]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GlobalWatchlist' 'GlobalWatchlist'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/GrowthExperiments]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/GrowthExperiments' 'GrowthExperiments'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/IPInfo]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/IPInfo' 'IPInfo'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/Math]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Math' 'Math'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/MobileFrontend]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MobileFrontend' 'MobileFrontend'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/Newsletter]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Newsletter' 'Newsletter'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/PageTriage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PageTriage' 'PageTriage'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/Popups]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Popups' 'Popups'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/ProofreadPage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ProofreadPage' 'ProofreadPage'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/RelatedArticles]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/RelatedArticles' 'RelatedArticles'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/RevisionSlider]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/RevisionSlider' 'RevisionSlider'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/TemplateWizard]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/TemplateWizard' 'TemplateWizard'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/TwoColConflict]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/TwoColConflict' 'TwoColConflict'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/VisualEditor]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/Wikibase]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Wikibase' 'Wikibase'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/WikibaseLexeme]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikibaseLexeme' 'WikibaseLexeme'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/WikiLambda]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikiLambda' 'WikiLambda'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/extensions/Wikistories]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Wikistories' 'Wikistories'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/skins/MinervaNeue]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/skins/MinervaNeue' 'MinervaNeue'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gerrit/mediawiki/core/skins/Vector]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/skins/Vector' 'Vector'
 update =
-	 update_git_repository
+	 update_git
 
 
 
@@ -217,7 +217,7 @@ update =
 [Documents/gerrit/wikibase/termbox]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/wikibase/termbox' 'termbox'
 update =
-	 update_git_repository
+	 update_git
 
 
 
@@ -226,7 +226,7 @@ update =
 [Documents/gerrit/wikidata/query/gui]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/wikidata/query/gui' 'gui'
 update =
-	 update_git_repository
+	 update_git
 
 
 
@@ -235,7 +235,7 @@ update =
 [Documents/gerrit/wikimedia/portals/deploy]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/wikimedia/portals/deploy' 'deploy'
 update =
-	 update_git_repository
+	 update_git
 
 
 
@@ -244,317 +244,317 @@ update =
 [Documents/github/wmde/wdio-wikibase]
 checkout = git clone 'git@github.com:wmde/wdio-wikibase.git' 'wdio-wikibase'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/composetest]
 checkout = git clone 'git@github.com:zeljkofilipin/composetest.git' 'composetest'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/developers-maintainers]
 checkout = git clone 'git@github.com:zeljkofilipin/developers-maintainers.git' 'developers-maintainers'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/docker-get-started]
 checkout = git clone 'git@github.com:zeljkofilipin/docker-get-started.git' 'docker-get-started'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/dotfiles]
 checkout = git clone 'git@github.com:zeljkofilipin/dotfiles.git' 'dotfiles'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/eloquent-javascript]
 checkout = git clone 'git@github.com:zeljkofilipin/eloquent-javascript.git' 'eloquent-javascript'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/filipin.eu]
 checkout = git clone 'git@github.com:zeljkofilipin/filipin.eu.git' 'filipin.eu'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/firefox-marionette-geckodriver-js]
 checkout = git clone 'git@github.com:zeljkofilipin/firefox-marionette-geckodriver-js.git' 'firefox-marionette-geckodriver-js'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/firefox-marionette-geckodriver-selenium-ruby]
 checkout = git clone 'git@github.com:zeljkofilipin/firefox-marionette-geckodriver-selenium-ruby.git' 'firefox-marionette-geckodriver-selenium-ruby'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/firefox-profile-firefoxdriver-selenium-ruby]
 checkout = git clone 'git@github.com:zeljkofilipin/firefox-profile-firefoxdriver-selenium-ruby.git' 'firefox-profile-firefoxdriver-selenium-ruby'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/firefox-profile-marionette-geckodriver-selenium-ruby]
 checkout = git clone 'git@github.com:zeljkofilipin/firefox-profile-marionette-geckodriver-selenium-ruby.git' 'firefox-profile-marionette-geckodriver-selenium-ruby'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/game-of-life-r]
 checkout = git clone 'git@github.com:zeljkofilipin/game-of-life-r.git' 'game-of-life-r'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/gerrit]
 checkout = git clone 'git@github.com:zeljkofilipin/gerrit.git' 'gerrit'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/growth-experiments]
 checkout = git clone 'git@github.com:zeljkofilipin/growth-experiments.git' 'growth-experiments'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/how-to-code]
 checkout = git clone 'git@github.com:zeljkofilipin/how-to-code.git' 'how-to-code'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/how-to-npm]
 checkout = git clone 'git@github.com:zeljkofilipin/how-to-npm.git' 'how-to-npm'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/incident-documentation]
 checkout = git clone 'git@github.com:zeljkofilipin/incident-documentation.git' 'incident-documentation'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/javascript-the-good-parts]
 checkout = git clone 'git@github.com:zeljkofilipin/javascript-the-good-parts.git' 'javascript-the-good-parts'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/javascripting]
 checkout = git clone 'git@github.com:zeljkofilipin/javascripting.git' 'javascripting'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/jekyll]
 checkout = git clone 'git@github.com:zeljkofilipin/jekyll.git' 'jekyll'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/jenkins-stats]
 checkout = git clone 'git@github.com:zeljkofilipin/jenkins-stats.git' 'jenkins-stats'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/language-screenshots]
 checkout = git clone 'git@github.com:zeljkofilipin/language-screenshots.git' 'language-screenshots'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/learnyounode]
 checkout = git clone 'git@github.com:zeljkofilipin/learnyounode.git' 'learnyounode'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/mediawiki-settings]
 checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-settings.git' 'mediawiki-settings'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/mediawiki-nightwatch]
 checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-nightwatch.git' 'mediawiki-nightwatch'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/mediawiki-selenium-cucumber]
 checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-selenium-cucumber.git' 'mediawiki-selenium-cucumber'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/mediawiki-selenium-nodejs]
 checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/mediawiki-selenium-rb]
 checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-selenium-rb.git' 'mediawiki-selenium-rb'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/mediawiki-webdriverio]
 checkout = git clone 'git@github.com:zeljkofilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/mediawiki-webdriverjs]
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-mediawiki-mocha.git' 'mediawiki-webdriverjs'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/node-docker]
 checkout = git clone 'git@github.com:zeljkofilipin/node-docker.git' 'node-docker'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/olympics]
 checkout = git clone 'git@github.com:zeljkofilipin/olympics.git' 'olympics'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/pacman]
 checkout = git clone 'git@github.com:zeljkofilipin/pacman.git' 'pacman'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/page-object-cucumber]
 checkout = git clone 'git@github.com:zeljkofilipin/page-object-cucumber.git' 'page-object-cucumber'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/page-object-minimal]
 checkout = git clone 'git@github.com:zeljkofilipin/page-object-minimal.git' 'page-object-minimal'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/rust-workshop]
 checkout = git clone 'git@github.com:zeljkofilipin/rust-workshop.git' 'rust-workshop'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/search]
 checkout = git clone 'git@github.com:zeljkofilipin/search.git' 'search'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/scratch-games]
 checkout = git clone 'git@github.com:zeljkofilipin/scratch-games.git' 'scratch-games'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/screenshot-js]
 checkout = git clone 'git@github.com:zeljkofilipin/screenshot-js.git' 'screenshot-js'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/screenshot-rb]
 checkout = git clone 'git@github.com:zeljkofilipin/screenshot-rb.git' 'screenshot-rb'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/selenium-logs]
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-logs.git' 'selenium-logs'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/selenium-scratch]
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-scratch.git' 'selenium-scratch'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/selenium-vagrant]
 checkout = git clone 'git@github.com:zeljkofilipin/selenium-vagrant.git' 'selenium-vagrant'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/set-game-js]
 checkout = git clone 'git@github.com:zeljkofilipin/set-game-js.git' 'set-game-js'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/set-game-rb]
 checkout = git clone 'git@github.com:zeljkofilipin/set-game-rb.git' 'set-game-rb'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/sikulix-hello-world]
 checkout = git clone 'git@github.com:zeljkofilipin/sikulix-hello-world.git' 'sikulix-hello-world'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/testingpodcast]
 checkout = git clone 'git@github.com:zeljkofilipin/testingpodcast.git' 'testingpodcast'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/testival]
 checkout = git clone 'git@github.com:zeljkofilipin/testival.git' 'testival'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/ukulele-to-wikitext]
 checkout = git clone 'git@github.com:zeljkofilipin/ukulele-to-wikitext.git' 'ukulele-to-wikitext'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/watir-nokogiri]
 checkout = git clone 'git@github.com:zeljkofilipin/watir-nokogiri.git' 'watir-nokogiri'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/watir-parallel]
 checkout = git clone 'git@github.com:zeljkofilipin/watir-parallel.git' 'watir-parallel'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/webdriverio-async]
 checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-async.git' 'webdriverio-async'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/webdriverio-firefox]
 checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-firefox.git' 'webdriverio-firefox'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/webdriverio-realworld]
 checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-realworld.git' 'webdriverio-realworld'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/webdriverio-standalone]
 checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-standalone.git' 'webdriverio-standalone'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/webdriverio-testrunner]
 checkout = git clone 'git@github.com:zeljkofilipin/webdriverio-testrunner.git' 'webdriverio-testrunner'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/webstrategija]
 checkout = git clone 'git@github.com:zeljkofilipin/webstrategija.git' 'webstrategija'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/wikitextify]
 checkout = git clone 'git@github.com:zeljkofilipin/wikitextify' 'wikitextify'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/wim]
 checkout = git clone 'git@github.com:zeljkofilipin/wim.git' 'wim'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/you-dont-know-js-up-and-going]
 checkout = git clone 'git@github.com:zeljkofilipin/you-dont-know-js-up-and-going.git' 'you-dont-know-js-up-and-going'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/yousician]
 checkout = git clone 'git@github.com:zeljkofilipin/yousician.git' 'yousician'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/yousician-appium]
 checkout = git clone 'git@github.com:zeljkofilipin/yousician-appium.git' 'yousician-appium'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/github/zeljkofilipin/zeljkofilipin]
 checkout = git clone 'git@github.com:zeljkofilipin/zeljkofilipin.git' 'zeljkofilipin'
 update =
-	 update_git_repository
+	 update_git
 
 
 
@@ -563,82 +563,82 @@ update =
 [Documents/gitlab/mhurd/mediawiki-quickstart]
 checkout = git clone 'git@gitlab.wikimedia.org:mhurd/mediawiki-quickstart.git' 'mediawiki-quickstart'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/developers-maintainers]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/developers-maintainers.git' 'developers-maintainers'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/gerrit]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/gerrit.git' 'gerrit'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/growth-experiments]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/growth-experiments.git' 'growth-experiments'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/incident-documentation]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/incident-documentation.git' 'incident-documentation'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/jenkins-stats]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/jenkins-stats.git' 'jenkins-stats'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/language-screenshots]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/language-screenshots.git' 'language-screenshots'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/mediawiki-nightwatch]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-nightwatch.git' 'mediawiki-nightwatch'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/mediawiki-selenium-cucumber]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-selenium-cucumber.git' 'mediawiki-selenium-cucumber'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/mediawiki-selenium-nodejs]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-selenium-nodejs.git' 'mediawiki-selenium-nodejs'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/mediawiki-selenium-rb]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-selenium-rb.git' 'mediawiki-selenium-rb'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/mediawiki-settings]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-settings.git' 'mediawiki-settings'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/mediawiki-webdriverio]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-webdriverio.git' 'mediawiki-webdriverio'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/mediawiki-webdriverjs]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-webdriverjs.git' 'mediawiki-webdriverjs'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/ukulele-to-wikitext]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/ukulele-to-wikitext.git' 'ukulele-to-wikitext'
 update =
-	 update_git_repository
+	 update_git
 
 [Documents/gitlab/zfilipin/wikitextify]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/wikitextify.git' 'wikitextify'
 update =
-	 update_git_repository
+	 update_git
 
 
 
@@ -647,9 +647,9 @@ update =
 [git/gerrit/mediawiki/core]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
 update =
-	 update_git_repository
+	 update_git
 
 [git/gerrit/mediawiki/core/skins/Vector]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/skins/Vector' 'Vector'
 update =
-	 update_git_repository
+	 update_git
