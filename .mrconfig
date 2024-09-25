@@ -10,9 +10,16 @@ lib =
 
 # on macos, update homebrew
 # on ubuntu, update apt and snap
-# check if .mrconfig is up to date
+# on both, check if .mrconfig is up to date
 
+# macos
 [/Users/z]
+update =
+	 ~/Documents/github/zeljkofilipin/dotfiles/update_os.sh &&
+	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
+
+# ubuntu
+[/home/z]
 update =
 	 ~/Documents/github/zeljkofilipin/dotfiles/update_os.sh &&
 	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
