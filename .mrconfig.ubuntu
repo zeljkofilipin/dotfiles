@@ -3,7 +3,7 @@
 [DEFAULT]
 lib =
 	 update_git_repository () {
-		 ~/Documents/github/zeljkofilipin/dotfiles/update_git_repository.sh
+		 ~/Documents/github/zeljkofilipin/dotfiles/update_git.sh
 	 }
 
 
