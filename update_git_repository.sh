@@ -15,6 +15,7 @@ fi
 if [ -n "$branch" ]; then
     echo "Checking out $branch branch"
     git checkout "$branch"
+    git pull origin "$branch"
 else
     echo "Neither 'master' nor 'main' branch exists"
     exit 1
