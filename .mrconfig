@@ -8,14 +8,13 @@ lib =
 
 
 
-# update homebrew and tools installed via homebrew
+# on macos, update homebrew
+# on ubuntu, update apt and snap
 # check if .mrconfig is up to date
 
 [/Users/z]
 update =
-	 brew update &&
-	 brew upgrade &&
-	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig.macos
+	 ~/Documents/github/zeljkofilipin/dotfiles/update_os.sh
 
 
 
