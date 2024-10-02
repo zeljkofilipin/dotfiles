@@ -263,6 +263,11 @@ checkout = git clone 'git@github.com:edwardspec/mediawiki-moderation.git' 'media
 update =
 	 update_git
 
+[Documents/github/femiwiki/FemiwikiSkin]
+checkout = git clone 'git@github.com:femiwiki/FemiwikiSkin.git' 'FemiwikiSkin'
+update =
+	 update_git
+
 [Documents/github/wmde/banner-screenshots]
 checkout = git clone 'git@github.com:wmde/banner-screenshots.git' 'banner-screenshots'
 update =
