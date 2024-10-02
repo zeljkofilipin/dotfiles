@@ -258,6 +258,11 @@ update =
 
 # github
 
+[Documents/github/edwardspec/mediawiki-moderation]
+checkout = git clone 'git@github.com:edwardspec/mediawiki-moderation.git' 'mediawiki-moderation'
+update =
+	 update_git
+
 [Documents/github/wmde/banner-screenshots]
 checkout = git clone 'git@github.com:wmde/banner-screenshots.git' 'banner-screenshots'
 update =
@@ -270,11 +275,6 @@ update =
 
 [Documents/github/wmde/wikibase-release-pipeline]
 checkout = git clone 'git@github.com:wmde/wikibase-release-pipeline.git' 'wikibase-release-pipeline'
-update =
-	 update_git
-
-[Documents/github/edwardspec/mediawiki-moderation]
-checkout = git clone 'git@github.com:edwardspec/mediawiki-moderation.git' 'mediawiki-moderation'
 update =
 	 update_git
 
