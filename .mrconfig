@@ -57,6 +57,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git
 
+[Documents/gerrit/mediawiki/core/extensions/Cargo]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Cargo' 'Cargo'
+update =
+	 update_git
+
 [Documents/gerrit/mediawiki/core/extensions/CentralNotice]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralNotice' 'CentralNotice'
 update =
@@ -164,6 +169,11 @@ update =
 
 [Documents/gerrit/mediawiki/core/extensions/RelatedArticles]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/RelatedArticles' 'RelatedArticles'
+update =
+	 update_git
+
+[Documents/gerrit/mediawiki/core/extensions/ReportIncident]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ReportIncident' 'ReportIncident'
 update =
 	 update_git
 
