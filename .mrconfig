@@ -263,6 +263,11 @@ checkout = git clone 'git@github.com:wmde/wdio-wikibase.git' 'wdio-wikibase'
 update =
 	 update_git
 
+[Documents/github/edwardspec/mediawiki-moderation]
+checkout = git clone 'git@github.com:edwardspec/mediawiki-moderation.git' 'mediawiki-moderation'
+update =
+	 update_git
+
 [Documents/github/zeljkofilipin/composetest]
 checkout = git clone 'git@github.com:zeljkofilipin/composetest.git' 'composetest'
 update =
