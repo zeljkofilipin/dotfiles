@@ -258,8 +258,18 @@ update =
 
 # github
 
+[Documents/github/wmde/banner-screenshots]
+checkout = git clone 'git@github.com:wmde/banner-screenshots.git' 'banner-screenshots'
+update =
+	 update_git
+
 [Documents/github/wmde/wdio-wikibase]
 checkout = git clone 'git@github.com:wmde/wdio-wikibase.git' 'wdio-wikibase'
+update =
+	 update_git
+
+[Documents/github/wmde/wikibase-release-pipeline]
+checkout = git clone 'git@github.com:wmde/wikibase-release-pipeline.git' 'wikibase-release-pipeline'
 update =
 	 update_git
 
