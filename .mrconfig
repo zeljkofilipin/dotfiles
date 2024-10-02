@@ -577,6 +577,17 @@ update =
 
 # gitlab
 
+[Documents/gitlab/commtech/wishlist-intake]
+checkout = git clone 'git@gitlab.wikimedia.org:repos/commtech/wishlist-intake.git' 'wishlist-intake'
+update =
+	 update_git
+
+[Documents/gitlab/data-engineering/mpic]
+checkout = git clone 'git@gitlab.wikimedia.org:repos/data-engineering/mpic.git' 'mpic'
+update =
+	 update_git
+
+
 [Documents/gitlab/mhurd/mediawiki-quickstart]
 checkout = git clone 'git@gitlab.wikimedia.org:mhurd/mediawiki-quickstart.git' 'mediawiki-quickstart'
 update =
