@@ -648,6 +648,11 @@ checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-nightwatch.git
 update =
 	 update_git
 
+[Documents/gitlab/zfilipin/mediawiki-quickstart]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-quickstart.git' 'mediawiki-quickstart'
+update =
+	 update_git
+
 [Documents/gitlab/zfilipin/mediawiki-selenium-cucumber]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/mediawiki-selenium-cucumber.git' 'mediawiki-selenium-cucumber'
 update =
