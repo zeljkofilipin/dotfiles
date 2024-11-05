@@ -11,6 +11,6 @@
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim-linux64/bin/nvim",
     "workbench.startupEditor": "newUntitledFile"
 }
