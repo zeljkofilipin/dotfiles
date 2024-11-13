@@ -607,9 +607,13 @@ checkout = git clone 'git@gitlab.wikimedia.org:repos/data-engineering/mpic.git' 
 update =
 	 update_git
 
-
 [Documents/gitlab/mhurd/mediawiki-quickstart]
 checkout = git clone 'git@gitlab.wikimedia.org:mhurd/mediawiki-quickstart.git' 'mediawiki-quickstart'
+update =
+	 update_git
+
+[Documents/gitlab/qte/mediawiki-quickstart]
+checkout = git clone 'git@gitlab.wikimedia.org:repos/qte/mediawiki-quickstart.git' 'mediawiki-quickstart'
 update =
 	 update_git
 
