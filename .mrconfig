@@ -47,6 +47,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git
 
+[Documents/gerrit/mediawiki/core/extensions/AchievementBadges]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/AchievementBadges' 'AchievementBadges'
+update =
+	 update_git
+
 [Documents/gerrit/mediawiki/core/extensions/AdvancedSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/AdvancedSearch' 'AdvancedSearch'
 update =
@@ -87,6 +92,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git
 
+[Documents/gerrit/mediawiki/core/extensions/CommunityRequests]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CommunityRequests' 'CommunityRequests'
+update =
+	 update_git
+
 [Documents/gerrit/mediawiki/core/extensions/ContactPage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ContactPage' 'ContactPage'
 update =
@@ -114,6 +124,11 @@ update =
 
 [Documents/gerrit/mediawiki/core/extensions/examples]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/examples' 'examples'
+update =
+	 update_git
+
+[Documents/gerrit/mediawiki/core/extensions/FacetedCategory]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/FacetedCategory' 'FacetedCategory'
 update =
 	 update_git
 
@@ -152,6 +167,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git
 
+[Documents/gerrit/mediawiki/core/extensions/OpenIDConnect]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/OpenIDConnect' 'OpenIDConnect'
+update =
+	 update_git
+
 [Documents/gerrit/mediawiki/core/extensions/PageTriage]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/PageTriage' 'PageTriage'
 update =
@@ -179,6 +199,11 @@ update =
 
 [Documents/gerrit/mediawiki/core/extensions/RevisionSlider]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/RevisionSlider' 'RevisionSlider'
+update =
+	 update_git
+
+[Documents/gerrit/mediawiki/core/extensions/Sanctions]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Sanctions' 'Sanctions'
 update =
 	 update_git
 
