@@ -608,11 +608,6 @@ checkout = git clone 'git@github.com:zeljkofilipin/yousician.git' 'yousician'
 update =
 	 update_git
 
-[Documents/github/zeljkofilipin/yousician-appium]
-checkout = git clone 'git@github.com:zeljkofilipin/yousician-appium.git' 'yousician-appium'
-update =
-	 update_git
-
 [Documents/github/zeljkofilipin/zeljkofilipin]
 checkout = git clone 'git@github.com:zeljkofilipin/zeljkofilipin.git' 'zeljkofilipin'
 update =
