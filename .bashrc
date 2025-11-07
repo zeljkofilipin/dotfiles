@@ -121,6 +121,3 @@ export PATH=$PATH:~/.local/bin
 
 # selenium
 export CHROME_PATH=/snap/bin/chromium
-
-# nvim
-export PATH="$PATH:/opt/nvim-linux64/bin"
