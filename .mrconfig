@@ -72,18 +72,8 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git
 
-[Documents/gerrit/mediawiki/core/extensions/CheckUser]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CheckUser' 'CheckUser'
-update =
-	 update_git
-
 [Documents/gerrit/mediawiki/core/extensions/CirrusSearch]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/CirrusSearch' 'CirrusSearch'
-update =
-	 update_git
-
-[Documents/gerrit/mediawiki/core/extensions/Cite]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Cite' 'Cite'
 update =
 	 update_git
 
@@ -114,11 +104,6 @@ update =
 
 [Documents/gerrit/mediawiki/core/extensions/ElectronPdfService]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/ElectronPdfService' 'ElectronPdfService'
-update =
-	 update_git
-
-[Documents/gerrit/mediawiki/core/extensions/EntitySchema]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/EntitySchema' 'EntitySchema'
 update =
 	 update_git
 
@@ -154,11 +139,6 @@ update =
 
 [Documents/gerrit/mediawiki/core/extensions/Math]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/Math' 'Math'
-update =
-	 update_git
-
-[Documents/gerrit/mediawiki/core/extensions/MobileFrontend]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/MobileFrontend' 'MobileFrontend'
 update =
 	 update_git
 
@@ -227,11 +207,6 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extens
 update =
 	 update_git
 
-[Documents/gerrit/mediawiki/core/extensions/WikibaseLexeme]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikibaseLexeme' 'WikibaseLexeme'
-update =
-	 update_git
-
 [Documents/gerrit/mediawiki/core/extensions/WikiLambda]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/extensions/WikiLambda' 'WikiLambda'
 update =
@@ -267,15 +242,6 @@ update =
 
 [Documents/gerrit/wikidata/query/gui]
 checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/wikidata/query/gui' 'gui'
-update =
-	 update_git
-
-
-
-# wikimedia
-
-[Documents/gerrit/wikimedia/portals/deploy]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/wikimedia/portals/deploy' 'deploy'
 update =
 	 update_git
 
@@ -704,19 +670,5 @@ update =
 
 [Documents/gitlab/zfilipin/wikitextify]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/wikitextify.git' 'wikitextify'
-update =
-	 update_git
-
-
-
-# cli
-
-[git/gerrit/mediawiki/core]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/core' 'core'
-update =
-	 update_git
-
-[git/gerrit/mediawiki/core/skins/Vector]
-checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/mediawiki/skins/Vector' 'Vector'
 update =
 	 update_git
