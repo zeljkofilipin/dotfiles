@@ -1,15 +1,7 @@
 #!/bin/sh
 
-# Initialize branch variable
-branch=""
-
-# Check if 'master' branch exists
-if git show-ref --verify --quiet refs/heads/master; then
-    branch="master"
-# Check if 'main' branch exists
-elif git show-ref --verify --quiet refs/heads/main; then
-    branch="main"
-fi
+# Detect the default branch from the remote
+branch=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
 
 # Check if the branch variable is set
 if [ -n "$branch" ]; then
@@ -17,7 +9,7 @@ if [ -n "$branch" ]; then
     git checkout "$branch"
     git pull origin "$branch"
 else
-    echo "Neither 'master' nor 'main' branch exists"
+    echo "Could not detect default branch from remote"
     exit 1
 fi
 
