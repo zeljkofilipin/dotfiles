@@ -1,13 +1,21 @@
 #!/bin/sh
 
+# Detect if this is a bare repository
+is_bare=$(git rev-parse --is-bare-repository 2>/dev/null)
+
 # Detect the default branch from the remote
 branch=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
 
 # Check if the branch variable is set
 if [ -n "$branch" ]; then
-    echo "Checking out $branch branch"
-    git checkout "$branch"
-    git pull origin "$branch"
+    if [ "$is_bare" = "true" ]; then
+        echo "Fetching $branch branch (bare repository)"
+        git fetch origin "$branch:$branch"
+    else
+        echo "Checking out $branch branch"
+        git checkout "$branch"
+        git pull origin "$branch"
+    fi
 else
     echo "Could not detect default branch from remote"
     exit 1
