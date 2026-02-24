@@ -247,6 +247,25 @@ update =
 
 
 
+# quibble
+
+[Documents/quibble/ref/mediawiki/core.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/core' 'core.git'
+update =
+	 update_git
+
+[Documents/quibble/ref/mediawiki/vendor.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/vendor' 'vendor.git'
+update =
+	 update_git
+
+[Documents/quibble/ref/mediawiki/skins/Vector.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector' 'Vector.git'
+update =
+	 update_git
+
+
+
 # github
 
 [Documents/github/edwardspec/mediawiki-moderation]
