@@ -254,13 +254,38 @@ checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/core' 'cor
 update =
 	 update_git
 
-[Documents/quibble/ref/mediawiki/vendor.git]
-checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/vendor' 'vendor.git'
+[Documents/quibble/ref/mediawiki/extensions/CampaignEvents.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/extensions/CampaignEvents' 'CampaignEvents.git'
+update =
+	 update_git
+
+[Documents/quibble/ref/mediawiki/extensions/cldr.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/extensions/cldr' 'cldr.git'
+update =
+	 update_git
+
+[Documents/quibble/ref/mediawiki/extensions/Echo.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo' 'Echo.git'
+update =
+	 update_git
+
+[Documents/quibble/ref/mediawiki/extensions/MobileFrontend.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend' 'MobileFrontend.git'
+update =
+	 update_git
+
+[Documents/quibble/ref/mediawiki/skins/MinervaNeue.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue' 'MinervaNeue.git'
 update =
 	 update_git
 
 [Documents/quibble/ref/mediawiki/skins/Vector.git]
 checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/skins/Vector' 'Vector.git'
+update =
+	 update_git
+
+[Documents/quibble/ref/mediawiki/vendor.git]
+checkout = git clone --bare 'https://gerrit.wikimedia.org/r/mediawiki/vendor' 'vendor.git'
 update =
 	 update_git
 
