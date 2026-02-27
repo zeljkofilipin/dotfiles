@@ -33,6 +33,11 @@ checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/conf
 update =
 	 update_git
 
+[Documents/gerrit/integration/quibble]
+checkout = git clone 'ssh://zfilipin@gerrit.wikimedia.org:29418/integration/quibble' 'quibble'
+update =
+	 update_git
+
 
 
 # mediawiki/core
