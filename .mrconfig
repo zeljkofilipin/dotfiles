@@ -722,6 +722,11 @@ checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/ukulele-to-wikitext.git'
 update =
 	 update_git
 
+[Documents/github/zeljkofilipin/vibe-composing]
+checkout = git clone 'git@github.com:zeljkofilipin/vibe-composing.git' 'vibe-composing'
+update =
+	 update_git
+
 [Documents/gitlab/zfilipin/wikitextify]
 checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/wikitextify.git' 'wikitextify'
 update =
