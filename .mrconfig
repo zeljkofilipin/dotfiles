@@ -493,6 +493,11 @@ checkout = git clone 'git@github.com:zeljkofilipin/page-object-minimal.git' 'pag
 update =
 	 update_git
 
+[Documents/github/zeljkofilipin/pom-wdio]
+checkout = git clone 'git@github.com:zeljkofilipin/pom-wdio.git' 'pom-wdio'
+update =
+	 update_git
+
 [Documents/github/zeljkofilipin/rust-workshop]
 checkout = git clone 'git@github.com:zeljkofilipin/rust-workshop.git' 'rust-workshop'
 update =
