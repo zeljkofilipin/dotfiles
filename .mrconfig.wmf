@@ -19,6 +19,13 @@ update =
 	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
 
 
+# github
+
+[Documents/github/zeljkofilipin/dotfiles]
+checkout = git clone 'https://github.com/zeljkofilipin/dotfiles.git' 'dotfiles'
+update =
+	 update_git
+
 
 # gitlab
 
