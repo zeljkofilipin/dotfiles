@@ -1,0 +1,28 @@
+# default
+
+[DEFAULT]
+lib =
+	 update_git () {
+		 ~/Documents/github/zeljkofilipin/dotfiles/update_git.sh
+	 }
+
+
+
+# on macos, update homebrew
+# on ubuntu, update apt and snap
+# on both, check if .mrconfig is up to date
+
+# macos
+[/Users/z]
+update =
+	 ~/Documents/github/zeljkofilipin/dotfiles/update_os.sh &&
+	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
+
+
+
+# gitlab
+
+[Documents/gitlab/zfilipin/quibble-local]
+checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/quibble-local.git' 'quibble-local'
+update =
+	 update_git
