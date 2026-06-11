@@ -12,5 +12,8 @@
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    }
 }
