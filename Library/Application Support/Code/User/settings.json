@@ -15,5 +15,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
-    }
+    },
+    "git.suggestSmartCommit": false
 }
