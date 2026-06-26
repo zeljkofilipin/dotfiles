@@ -337,3 +337,10 @@ update =
 checkout = git clone 'git@github.com:zeljkofilipin/zeljkofilipin.git' 'zeljkofilipin'
 update =
 	 update_git
+
+# gitlab
+
+[Documents/gitlab/zfilipin/quibble-local]
+checkout = git clone 'https://gitlab.wikimedia.org/zfilipin/quibble-local.git' 'quibble-local'
+update =
+	 update_git
