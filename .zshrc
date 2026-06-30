@@ -1,2 +1,2 @@
-# custom zsh prompt, working directory
+# custom prompt, working directory
 PS1="%~$ "
