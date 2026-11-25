@@ -30,6 +30,6 @@ update =
 # gitlab
 
 [Documents/gitlab/zfilipin/quibble-local]
-checkout = git clone 'git@gitlab.wikimedia.org:zfilipin/quibble-local.git' 'quibble-local'
+checkout = git clone 'git@gitlab-ssh.wikimedia.org:zfilipin/quibble-local.git' 'quibble-local'
 update =
 	 update_git
