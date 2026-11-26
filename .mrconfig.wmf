@@ -16,7 +16,7 @@ lib =
 [/Users/z]
 update =
 	 ~/Documents/github/zeljkofilipin/dotfiles/update_os.sh &&
-	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig
+	 diff .mrconfig Documents/github/zeljkofilipin/dotfiles/.mrconfig.wmf
 
 
 # github
